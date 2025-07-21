@@ -1,0 +1,19 @@
+Round not ending yet for aura
+Round not ending yet for balancer
+Round has past expiry limit for bunni
+Round has past expiry limit for equilibria
+Round has past expiry limit for lodestar
+Round has past expiry limit for thruster
+Round has past expiry limit for hyperlock
+Round not ending yet for mode
+Round not ending yet for mode-bpt
+Round not ending yet for beets
+/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:268
+    throw new Error('No protocol found');
+          ^
+
+Error: No protocol found
+    at main (/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:268:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.18.2
