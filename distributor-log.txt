@@ -1,19 +1,117 @@
 Round has past expiry limit for aura
-Round not ending yet for balancer
 Round has past expiry limit for bunni
 Round has past expiry limit for equilibria
 Round has past expiry limit for lodestar
 Round has past expiry limit for thruster
 Round has past expiry limit for hyperlock
-Round not ending yet for mode
-Round not ending yet for mode-bpt
 Round has past expiry limit for beets
-/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:268
-    throw new Error('No protocol found');
-          ^
-
-Error: No protocol found
-    at main (/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:268:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-
-Node.js v18.18.2
+Protocols [ 'balancer', 'mode', 'mode-bpt' ]
+Reward distribution (simulation: true) for BALANCER
+Deadlines:  1754524800 1753920000
+Blacklisted [
+  '0xaf52695e1bb01a16d33d7194c28c42b10e0dbec2',
+  '0x1c8bcb6348c84122e67a50e513a1e183c0e6929a'
+]
+Total user power 1521536969372052555417600
+https://api.gnosisscan.io/api?module=logs&action=getLogs&fromBlock=39124899&toBlock=41477293&address=0x1Fbb3041B086d5AEb4905a6cf087f57e6fA87CBf&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x0000000000000000000000002a537a574a329e0f00e36f876fda03e66f4db355&topic1_3_opr=and&topic0_3_opr=and&topic3=0x000000000000000000000000000000000000000000000000000000006893ec80&apikey=R3JWGCUES3F8GDV39M3HGME6Y24IDNB1HK
+https://api.fraxscan.com/api?module=logs&action=getLogs&fromBlock=17813281&toBlock=23861083&address=0xEaE74D0ad80BA94F94182890Ec78DE92f7A85992&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x00000000000000000000000045ca8943d028c1e2845c5f8de5158249caf3c8c2&topic1_3_opr=and&topic0_3_opr=and&topic3=0x000000000000000000000000000000000000000000000000000000006893ec80&apikey=VE9CZ8CG5QAMR3XTSFA7N2TFETAH9WB7FX
+Refunds {
+  '1-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': { '0xf62b2e3c421c76f1063f65f45c30540393243762': '1251379' }
+}
+Generate distributions balancer 1754524800 {} true
+Harvester rewards by chain {
+  '1': {
+    '0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0': BigNumber { _hex: '0x33aeecef921e', _isBigNumber: true },
+    '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf': BigNumber { _hex: '0x0312cd0021f82c2f11', _isBigNumber: true },
+    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': BigNumber { _hex: '0x56cb1b7e', _isBigNumber: true }
+  },
+  '10': {
+    '0x7f5c764cbc14f9669b88837ca1490cca17c31607': BigNumber { _hex: '0x15', _isBigNumber: true }
+  },
+  '42161': {
+    '0xaf88d065e77c8cc2239327c5edb3a432268e5831': BigNumber { _hex: '0x2458', _isBigNumber: true }
+  }
+}
+Reward distribution (simulation: true) for MODE
+Deadlines:  1754524800 1752105600
+Blacklisted []
+Total user power 1497563733319127738451280922
+https://explorer.mode.network/api?module=logs&action=getLogs&fromBlock=21134883&toBlock=27182686&address=0xEaE74D0ad80BA94F94182890Ec78DE92f7A85992&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x0000000000000000000000001b9cf9d509427697bfbed9c2e4ca334c3f61305d&topic1_3_opr=and&topic0_3_opr=and&topic3=0x000000000000000000000000000000000000000000000000000000006893ec80&apikey=
+Refunds {}
+Empty bribes for current round mode
+Reward distribution (simulation: true) for MODE-BPT
+Deadlines:  1754524800 1742428800
+Blacklisted []
+Total user power 4412100933909261908305973
+https://explorer.mode.network/api?module=logs&action=getLogs&fromBlock=21134906&toBlock=27182709&address=0xEaE74D0ad80BA94F94182890Ec78DE92f7A85992&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x00000000000000000000000002189bccbde9e1584466102283845ce7c9c6ed90&topic1_3_opr=and&topic0_3_opr=and&topic3=0x000000000000000000000000000000000000000000000000000000006893ec80&apikey=
+Refunds {}
+Empty bribes for current round mode-bpt
+All coin candidates {
+  '1': {
+    '0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0': BigNumber { _hex: '0x33aeecef921e', _isBigNumber: true },
+    '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf': BigNumber { _hex: '0x0312cd0021f82c2f11', _isBigNumber: true },
+    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': BigNumber { _hex: '0x56cb1b7e', _isBigNumber: true }
+  },
+  '10': {
+    '0x7f5c764cbc14f9669b88837ca1490cca17c31607': BigNumber { _hex: '0x15', _isBigNumber: true }
+  },
+  '42161': {
+    '0xaf88d065e77c8cc2239327c5edb3a432268e5831': BigNumber { _hex: '0x2458', _isBigNumber: true }
+  }
+}
+Check swap (Paraswap) 0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0 BigNumber { _hex: '0x33aeecef921e', _isBigNumber: true } 200 1
+0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0 WSTETH 0.2519108294650016
+Insufficient value for swap for WSTETH
+Check swap (Paraswap) 0xc0c293ce456ff0ed870add98a0828dd4d2903dbf BigNumber { _hex: '0x0312cd0021f82c2f11', _isBigNumber: true } 200 1
+0xc0c293ce456ff0ed870add98a0828dd4d2903dbf AURA 9.205505816107054
+Insufficient value for swap for AURA
+Check swap (Paraswap) 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 BigNumber { _hex: '0x56cb1b7e', _isBigNumber: true } 200 1
+0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 USDC 1455.871840926976
+1456.151422 USDC -> 0.396541649022056355 WETH
+Check swap (Paraswap) 0x7f5c764cbc14f9669b88837ca1490cca17c31607 BigNumber { _hex: '0x15', _isBigNumber: true } 200 10
+0x7f5c764cbc14f9669b88837ca1490cca17c31607 USDC.E 0.000020997899999999998
+Insufficient value for swap for USDC.E
+Check swap (Paraswap) 0xaf88d065e77c8cc2239327c5edb3a432268e5831 BigNumber { _hex: '0x2458', _isBigNumber: true } 200 42161
+0xaf88d065e77c8cc2239327c5edb3a432268e5831 USDC 0.009302213632
+Insufficient value for swap for USDC
+Eligible tokens {
+  '1': [ '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48' ],
+  '10': [],
+  '42161': []
+}
+Reward distribution (simulation: false) for BALANCER
+Deadlines:  1754524800 1753920000
+Blacklisted [
+  '0xaf52695e1bb01a16d33d7194c28c42b10e0dbec2',
+  '0x1c8bcb6348c84122e67a50e513a1e183c0e6929a'
+]
+Total user power 1521536969372052555417600
+https://api.gnosisscan.io/api?module=logs&action=getLogs&fromBlock=39124941&toBlock=41477331&address=0x1Fbb3041B086d5AEb4905a6cf087f57e6fA87CBf&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x0000000000000000000000002a537a574a329e0f00e36f876fda03e66f4db355&topic1_3_opr=and&topic0_3_opr=and&topic3=0x000000000000000000000000000000000000000000000000000000006893ec80&apikey=R3JWGCUES3F8GDV39M3HGME6Y24IDNB1HK
+https://api.fraxscan.com/api?module=logs&action=getLogs&fromBlock=17813387&toBlock=23861190&address=0xEaE74D0ad80BA94F94182890Ec78DE92f7A85992&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x00000000000000000000000045ca8943d028c1e2845c5f8de5158249caf3c8c2&topic1_3_opr=and&topic0_3_opr=and&topic3=0x000000000000000000000000000000000000000000000000000000006893ec80&apikey=VE9CZ8CG5QAMR3XTSFA7N2TFETAH9WB7FX
+Refunds {
+  '1-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': { '0xf62b2e3c421c76f1063f65f45c30540393243762': '1251379' }
+}
+Generate distributions balancer 1754524800 {
+  '1': [ '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48' ],
+  '10': [],
+  '42161': []
+} false
+Transformed calldata 1 [
+  [
+    '0x014b2de4bccb717cde8df052cfe36456d7970905932f4bdcc43d9bb0fc6d1b7d',
+    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+    '0x1e8a36d1c381c60e900bf4de5f85a93f8865a9230e585e44d464d97461112186',
+    '0x6654d1eb69429d3e28b4a7fed2209565cf5c17469477a1c954818d78a05193c3'
+  ]
+]
+Final metadata
+{
+  '1': [
+    [
+      '0x014b2de4bccb717cde8df052cfe36456d7970905932f4bdcc43d9bb0fc6d1b7d',
+      '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+      '0x1e8a36d1c381c60e900bf4de5f85a93f8865a9230e585e44d464d97461112186',
+      '0x6654d1eb69429d3e28b4a7fed2209565cf5c17469477a1c954818d78a05193c3'
+    ]
+  ]
+}
