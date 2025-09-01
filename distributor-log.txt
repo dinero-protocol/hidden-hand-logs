@@ -1,117 +1,20 @@
-Round has past expiry limit for aura
+Round not ending yet for aura
+Round not ending yet for balancer
 Round has past expiry limit for bunni
 Round has past expiry limit for equilibria
 Round has past expiry limit for lodestar
 Round has past expiry limit for thruster
 Round has past expiry limit for hyperlock
-Round has past expiry limit for mode
-Round has past expiry limit for mode-bpt
-Round has past expiry limit for beets
-Round has past expiry limit for omni
-Protocols [ 'balancer' ]
-Reward distribution (simulation: true) for BALANCER
-Deadlines:  1756339200 1755734400
-Blacklisted [
-  '0xaf52695e1bb01a16d33d7194c28c42b10e0dbec2',
-  '0x1c8bcb6348c84122e67a50e513a1e183c0e6929a'
-]
-Total user power 1469823270073080028243200
-getDepositLogsWithApi
-fromBlock 39480140 toBlock 41826794
-https://api.gnosisscan.io/api?module=logs&action=getLogs&fromBlock=39480140&toBlock=41826794&address=0x1Fbb3041B086d5AEb4905a6cf087f57e6fA87CBf&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x0000000000000000000000002a537a574a329e0f00e36f876fda03e66f4db355&topic1_3_opr=and&topic0_3_opr=and&topic3=0x0000000000000000000000000000000000000000000000000000000068af9c00&apikey=R3JWGCUES3F8GDV39M3HGME6Y24IDNB1HK
-getDepositLogsWithApi
-fromBlock 18720483 toBlock 24768286
-https://api.fraxscan.com/api?module=logs&action=getLogs&fromBlock=18720483&toBlock=24768286&address=0xEaE74D0ad80BA94F94182890Ec78DE92f7A85992&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x00000000000000000000000045ca8943d028c1e2845c5f8de5158249caf3c8c2&topic1_3_opr=and&topic0_3_opr=and&topic3=0x0000000000000000000000000000000000000000000000000000000068af9c00&apikey=VE9CZ8CG5QAMR3XTSFA7N2TFETAH9WB7FX
-Refunds {}
-Generate distributions balancer 1756339200 {} true
-Harvester rewards by chain {
-  '1': {
-    '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf': BigNumber { _hex: '0x0312cd0021f82c2f11', _isBigNumber: true },
-    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': BigNumber { _hex: '0x57713d3c', _isBigNumber: true }
-  },
-  '10': {
-    '0x7f5c764cbc14f9669b88837ca1490cca17c31607': BigNumber { _hex: '0x15', _isBigNumber: true }
-  },
-  '42161': {
-    '0xaf88d065e77c8cc2239327c5edb3a432268e5831': BigNumber { _hex: '0x2458', _isBigNumber: true }
-  }
-}
-All coin candidates {
-  '1': {
-    '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf': BigNumber { _hex: '0x0312cd0021f82c2f11', _isBigNumber: true },
-    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': BigNumber { _hex: '0x57713d3c', _isBigNumber: true }
-  },
-  '10': {
-    '0x7f5c764cbc14f9669b88837ca1490cca17c31607': BigNumber { _hex: '0x15', _isBigNumber: true }
-  },
-  '42161': {
-    '0xaf88d065e77c8cc2239327c5edb3a432268e5831': BigNumber { _hex: '0x2458', _isBigNumber: true }
-  }
-}
-Check swap (Paraswap) 0xc0c293ce456ff0ed870add98a0828dd4d2903dbf BigNumber { _hex: '0x0312cd0021f82c2f11', _isBigNumber: true } 200 1
-0xc0c293ce456ff0ed870add98a0828dd4d2903dbf AURA 11.04616475855131
-Insufficient value for swap for AURA
-Check swap (Paraswap) 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 BigNumber { _hex: '0x57713d3c', _isBigNumber: true } 200 1
-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 USDC 1466.754430427016
-1467.039036 USDC -> 0.324752617846700394 WETH
-Check swap (Paraswap) 0x7f5c764cbc14f9669b88837ca1490cca17c31607 BigNumber { _hex: '0x15', _isBigNumber: true } 200 10
-0x7f5c764cbc14f9669b88837ca1490cca17c31607 USDC.E 0.000020997899999999998
-Insufficient value for swap for USDC.E
-Check swap (Paraswap) 0xaf88d065e77c8cc2239327c5edb3a432268e5831 BigNumber { _hex: '0x2458', _isBigNumber: true } 200 42161
-0xaf88d065e77c8cc2239327c5edb3a432268e5831 USDC 0.009302195023999999
-Insufficient value for swap for USDC
-Eligible tokens {
-  '1': [ '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48' ],
-  '10': [],
-  '42161': []
-}
-Reward distribution (simulation: false) for BALANCER
-Deadlines:  1756339200 1755734400
-Blacklisted [
-  '0xaf52695e1bb01a16d33d7194c28c42b10e0dbec2',
-  '0x1c8bcb6348c84122e67a50e513a1e183c0e6929a'
-]
-Total user power 1469823270073080028243200
-getDepositLogsWithApi
-fromBlock 39480160 toBlock 41826815
-https://api.gnosisscan.io/api?module=logs&action=getLogs&fromBlock=39480160&toBlock=41826815&address=0x1Fbb3041B086d5AEb4905a6cf087f57e6fA87CBf&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x0000000000000000000000002a537a574a329e0f00e36f876fda03e66f4db355&topic1_3_opr=and&topic0_3_opr=and&topic3=0x0000000000000000000000000000000000000000000000000000000068af9c00&apikey=R3JWGCUES3F8GDV39M3HGME6Y24IDNB1HK
-getDepositLogsWithApi
-fromBlock 18720536 toBlock 24768339
-https://api.fraxscan.com/api?module=logs&action=getLogs&fromBlock=18720536&toBlock=24768339&address=0xEaE74D0ad80BA94F94182890Ec78DE92f7A85992&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x00000000000000000000000045ca8943d028c1e2845c5f8de5158249caf3c8c2&topic1_3_opr=and&topic0_3_opr=and&topic3=0x0000000000000000000000000000000000000000000000000000000068af9c00&apikey=VE9CZ8CG5QAMR3XTSFA7N2TFETAH9WB7FX
-Refunds {}
-Generate distributions balancer 1756339200 {
-  '1': [ '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48' ],
-  '10': [],
-  '42161': []
-} false
-Transformed calldata 1 [
-  [
-    '0x014b2de4bccb717cde8df052cfe36456d7970905932f4bdcc43d9bb0fc6d1b7d',
-    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
-    '0xc5d7dac80bb8c676d1d64fb7a6ffd48a6eecef9312954853c22c5e4b08b7d802',
-    '0x6b37e45d5915db3043381525522cae8d448f33243c1186150ee1a263665faecf'
-  ],
-  [
-    '0x7694349027ad3066bb3ee879dfc6401b01a4d41d9acbff595b003c287c8f1a7c',
-    '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf',
-    '0xd6943f1650921def81f2feea4a5e22bd5cba0303ddbaff189b0fd5495418d616',
-    '0xa110125c9011a20c637344d440b2ba1f8ed260e17f4d50f2799bf1c8467ee547'
-  ]
-]
-Final metadata
-{
-  '1': [
-    [
-      '0x014b2de4bccb717cde8df052cfe36456d7970905932f4bdcc43d9bb0fc6d1b7d',
-      '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
-      '0xc5d7dac80bb8c676d1d64fb7a6ffd48a6eecef9312954853c22c5e4b08b7d802',
-      '0x6b37e45d5915db3043381525522cae8d448f33243c1186150ee1a263665faecf'
-    ],
-    [
-      '0x7694349027ad3066bb3ee879dfc6401b01a4d41d9acbff595b003c287c8f1a7c',
-      '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf',
-      '0xd6943f1650921def81f2feea4a5e22bd5cba0303ddbaff189b0fd5495418d616',
-      '0xa110125c9011a20c637344d440b2ba1f8ed260e17f4d50f2799bf1c8467ee547'
-    ]
-  ]
-}
+Round not ending yet for mode
+Round not ending yet for mode-bpt
+Round not ending yet for beets
+Round not ending yet for omni
+/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:268
+    throw new Error('No protocol found');
+          ^
+
+Error: No protocol found
+    at main (/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:268:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.18.2
