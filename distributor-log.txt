@@ -1,4 +1,3 @@
-Round not ending yet for aura
 Round not ending yet for balancer
 Round has past expiry limit for bunni
 Round has past expiry limit for equilibria
@@ -7,14 +6,141 @@ Round has past expiry limit for thruster
 Round has past expiry limit for hyperlock
 Round not ending yet for mode
 Round not ending yet for mode-bpt
-Round not ending yet for beets
 Round not ending yet for omni
-/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:268
-    throw new Error('No protocol found');
-          ^
+Protocols [ 'aura', 'beets' ]
+Reward distribution (simulation: true) for AURA
+Forward block 23272327
+Blacklisted [
+  '0x1c8bcb6348c84122e67a50e513a1e183c0e6929a',
+  '0x9ff471f9f98f42e5151c7855fd1b5aa906b1af7e',
+  '0xa52fd396891e7a74b641a2cb1a6999fcf56b077e',
+  '0xf17149326ec300c5650ed983afa9a8114fef2400'
+]
+Proposal 67 1756756800 0x43cc862173ea90584cc2ec4a18ab8d50bcf7f33dfcb4695fd5602d67b85e61ff
+Snapshot at block # 23235896 and timestamp = 1756339200
+Snapshot at block # 34774927 and timestamp = 1756339200
+Total weight 44662776844800217949000000
+HH user votes {
+  '3': BigNumber { _hex: '0xacd8ad7be15c3941a8a0', _isBigNumber: true },
+  '10': BigNumber { _hex: '0x01420e34b83c8b883e28a1', _isBigNumber: true },
+  '26': BigNumber { _hex: '0x077ed23265f24c62e57d', _isBigNumber: true },
+  '27': BigNumber { _hex: '0x1a250d23e01218daab80', _isBigNumber: true },
+  '39': BigNumber { _hex: '0x9ba88d287ae52a8cb9b4', _isBigNumber: true },
+  '45': BigNumber { _hex: '0x010270f2515a935bcfa01f', _isBigNumber: true },
+  '46': BigNumber { _hex: '0x7fa68f3c68fb2b051bf3', _isBigNumber: true },
+  '52': BigNumber { _hex: '0x6f00d4e764e590a9f148', _isBigNumber: true },
+  '56': BigNumber { _hex: '0x02534fdabea11ff400c434', _isBigNumber: true },
+  '88': BigNumber { _hex: '0x8ae3fa5d4cd4513d8ed4', _isBigNumber: true },
+  '98': BigNumber { _hex: '0x4618a180ef590a1f3919', _isBigNumber: true },
+  '103': BigNumber { _hex: '0x37da9136c7ea86518069', _isBigNumber: true },
+  '111': BigNumber { _hex: '0x47939d1f416fb1430b64', _isBigNumber: true },
+  '112': BigNumber { _hex: '0x4e5d35df59e644b230d1', _isBigNumber: true },
+  '122': BigNumber { _hex: '0x38c3d55659fad295264f', _isBigNumber: true },
+  '140': BigNumber { _hex: '0x47615c698b36a40b1b8a', _isBigNumber: true },
+  '155': BigNumber { _hex: '0x01132d637175ed00b7e985', _isBigNumber: true },
+  '171': BigNumber { _hex: '0x1b820076bd3fd0a70dc3', _isBigNumber: true },
+  '179': BigNumber { _hex: '0x76c93742727373abb824', _isBigNumber: true },
+  '208': BigNumber { _hex: '0x5f89f9c67e9a23af8b4e', _isBigNumber: true },
+  '216': BigNumber { _hex: '0x3d00bd840baa36dbd3e6', _isBigNumber: true },
+  '221': BigNumber { _hex: '0x0c31cc32cb3922e02f0e', _isBigNumber: true },
+  '235': BigNumber { _hex: '0x581bcc0f3d40f74cf614', _isBigNumber: true }
+}
+Choice voted 3 816244032606477150693536
+Choice voted 10 1520864060753913363441825
+Choice voted 26 35396001413963058439549
+Choice voted 27 123465004932053037919104
+Choice voted 39 735076029364061309024692
+Choice voted 45 1220454048753443174064159
+Choice voted 46 602813024080554721876979
+Choice voted 52 524198020940123416949064
+Choice voted 56 2811281112302166409790516
+Choice voted 88 655892026200900203548372
+Choice voted 98 331020013223247020505369
+Choice voted 103 263762010536493500694633
+Choice voted 111 338011013502516318112612
+Choice voted 112 370064014782936661504209
+Choice voted 122 268065010708385379984975
+Choice voted 140 337084013465485477354378
+Choice voted 155 1299488051910612266510725
+Choice voted 171 129902005189191695535555
+Choice voted 179 560951022408294491469860
+Choice voted 208 451170018022875825408846
+Choice voted 216 288078011507844144944102
+Choice voted 221 57587002300426342117134
+Choice voted 235 416081016621176560875028
+Total HH Power 14156946565527141530765222
+getDepositLogsWithApi
+fromBlock 39565014 toBlock 41910972
+https://api.gnosisscan.io/api?module=logs&action=getLogs&fromBlock=39565014&toBlock=41910972&address=0x1Fbb3041B086d5AEb4905a6cf087f57e6fA87CBf&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x0000000000000000000000001154b0e98243f82521104b83fb099df1648ffb08&topic1_3_opr=and&topic0_3_opr=and&topic3=0x0000000000000000000000000000000000000000000000000000000068b5fb40&apikey=R3JWGCUES3F8GDV39M3HGME6Y24IDNB1HK
+getDepositLogsWithApi
+fromBlock 18936486 toBlock 24984289
+https://api.fraxscan.com/api?module=logs&action=getLogs&fromBlock=18936486&toBlock=24984289&address=0xEaE74D0ad80BA94F94182890Ec78DE92f7A85992&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x0000000000000000000000001b9cf9d509427697bfbed9c2e4ca334c3f61305d&topic1_3_opr=and&topic0_3_opr=and&topic3=0x0000000000000000000000000000000000000000000000000000000068b5fb40&apikey=VE9CZ8CG5QAMR3XTSFA7N2TFETAH9WB7FX
+Refunds {
+  '1-0xc0c293ce456ff0ed870add98a0828dd4d2903dbf': {
+    '0x21aed3a7a1c34cd88b8a39dbdae042befbf947ff': '44393323294321255066280'
+  }
+}
+--- 14156946565527144546549722
+Total delegated 45284398176872810550635150
+Tot 44662776844800222480590427
+Current total: {
+  '1-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': '54257580455',
+  '1-0xd33526068d116ce69f19a9ee46f0bd304f21a51f': '729599999999999999994',
+  '1-0xc0c293ce456ff0ed870add98a0828dd4d2903dbf': '9642627739810268147607',
+  '1-0x30d20208d987713f46dfd34ef128bb16c404d10f': '6720000000000000000000'
+}
+Optimizing...
+---------
+Token balances list {
+  '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': '41784706239',
+  '0xd33526068d116ce69f19a9ee46f0bd304f21a51f': '529316452034754749538',
+  '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf': '8019311034131523213763',
+  '0x30d20208d987713f46dfd34ef128bb16c404d10f': '6719999999999999999933'
+}
+------------------
+Generate distributions aura 1756756800 {} true
+Harvester rewards by chain {
+  '1': {
+    '0x43d4a3cd90ddd2f8f4f693170c9c8098163502ad': BigNumber { _hex: '0x0958ca0256fda7fc47', _isBigNumber: true },
+    '0xdbdb4d16eda451d0503b854cf79d55697f90c8df': BigNumber { _hex: '0x01c182460a5a38f2', _isBigNumber: true },
+    '0x8290333cef9e6d528dd5618fb97a76f268f3edd4': BigNumber { _hex: '0x0a577fda279c545d', _isBigNumber: true },
+    '0xef3a930e1ffffacd2fc13434ac81bd278b0ecc8d': BigNumber { _hex: '0x01ba55b4cfb264636b', _isBigNumber: true },
+    '0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321': BigNumber { _hex: '0x2be5c963728759f3', _isBigNumber: true },
+    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': BigNumber { _hex: '0x02681b3c58', _isBigNumber: true }
+  },
+  '10': {
+    '0x0b2c639c533813f4aa9d7837caf62653d097ff85': BigNumber { _hex: '0x088f73', _isBigNumber: true },
+    '0x1f32b1c2345538c0c6f582fcb022739c4a194ebb': BigNumber { _hex: '0xa27ae027eaa8', _isBigNumber: true },
+    '0x00e1724885473b63bce08a9f0a52f35b0979e35a': BigNumber { _hex: '0xd7dcf43789f89232', _isBigNumber: true },
+    '0x7f5c764cbc14f9669b88837ca1490cca17c31607': BigNumber { _hex: '0x038e1d85', _isBigNumber: true },
+    '0x39fde572a18448f8139b7788099f0a0740f51205': BigNumber { _hex: '0x05a6783595302630c8', _isBigNumber: true },
+    '0x67ccea5bb16181e7b4109c9c2143c24a1c2205be': BigNumber { _hex: '0x103dc953f805513b9b', _isBigNumber: true },
+    '0x4200000000000000000000000000000000000042': BigNumber { _hex: '0x0afe7afb8fabdd29', _isBigNumber: true }
+  },
+  '42161': {
+    '0x43ab8f7d2a8dd4102ccea6b438f6d747b1b9f034': BigNumber { _hex: '0x1e0c232ae38309eb', _isBigNumber: true },
+    '0xbfbcfe8873fe28dfa25f1099282b088d52bbad9c': BigNumber { _hex: '0x148e37d9e5f190d6', _isBigNumber: true },
+    '0x912ce59144191c1204e64559fe8253a0e49e6548': BigNumber { _hex: '0x1c6c9e089bd9813e', _isBigNumber: true },
+    '0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7': BigNumber { _hex: '0x84a6231391d6bcdf', _isBigNumber: true },
+    '0xaf88d065e77c8cc2239327c5edb3a432268e5831': BigNumber { _hex: '0x0397f3', _isBigNumber: true }
+  }
+}
+Reward distribution (simulation: true) for BEETS
+Forward block 45397518
+Blacklisted []
+Proposal 16 1756756800 0x530c3023479eea274d289ea23c2f2a05ac22f5b69b6dc8a0dbaad14d499f5a65
+Voters count 152
+Total weight 76283643624539068683034000
+HH user votes undefined
+Empty HH delegation
+/home/ec2-user/hidden-hand-backend/reward-v2/utils.js:94
+      result.forEach((row) => {
+             ^
 
-Error: No protocol found
-    at main (/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:268:11)
+TypeError: result.forEach is not a function
+    at getForwardings (/home/ec2-user/hidden-hand-backend/reward-v2/utils.js:94:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async aggregateBeetsRewards (/home/ec2-user/hidden-hand-backend/reward-v2/beets.js:499:21)
+    at async /home/ec2-user/hidden-hand-backend/reward-v2/generate.js:296:29
 
 Node.js v18.18.2
