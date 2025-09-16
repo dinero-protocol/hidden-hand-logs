@@ -1,4 +1,3 @@
-Round not ending yet for aura
 Round not ending yet for balancer
 Round has past expiry limit for bunni
 Round has past expiry limit for equilibria
@@ -7,14 +6,1549 @@ Round has past expiry limit for thruster
 Round has past expiry limit for hyperlock
 Round not ending yet for mode
 Round not ending yet for mode-bpt
-Round not ending yet for beets
 Round not ending yet for omni
-/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:277
-    throw new Error('No protocol found');
-          ^
-
-Error: No protocol found
-    at main (/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:277:11)
+Protocols [ 'aura', 'beets' ]
+Reward distribution (simulation: true) for AURA
+Forward block 23372511
+Blacklisted [
+  '0x1c8bcb6348c84122e67a50e513a1e183c0e6929a',
+  '0x9ff471f9f98f42e5151c7855fd1b5aa906b1af7e',
+  '0xa52fd396891e7a74b641a2cb1a6999fcf56b077e',
+  '0xf17149326ec300c5650ed983afa9a8114fef2400'
+]
+Proposal 68 1757966400 0x18ea9eaeb1f1592593505a62c9360ceca33314a7e963e94817dd05f6c23b4481
+Snapshot at block # 23336104 and timestamp = 1757548800
+Snapshot at block # 35379727 and timestamp = 1757548800
+Total weight 41225297731104717635300000
+HH user votes {
+  '3': BigNumber { _hex: '0x40f004d3584be75cfe95', _isBigNumber: true },
+  '10': BigNumber { _hex: '0xa20103462819291b29be', _isBigNumber: true },
+  '27': BigNumber { _hex: '0x0de0b6c3bffe6ddf', _isBigNumber: true },
+  '39': BigNumber { _hex: '0xa8308b5c9a3db34a9d5f', _isBigNumber: true },
+  '45': BigNumber { _hex: '0xdef9303745a64ae11882', _isBigNumber: true },
+  '46': BigNumber { _hex: '0xaecda275e3bcfa24a826', _isBigNumber: true },
+  '52': BigNumber { _hex: '0x7fb182cb206bce8a0052', _isBigNumber: true },
+  '56': BigNumber { _hex: '0x022a66a0ba11984e0bf5aa', _isBigNumber: true },
+  '89': BigNumber { _hex: '0x8dd0f228e31cf62823ff', _isBigNumber: true },
+  '99': BigNumber { _hex: '0x4cb5aadbd4a09065f33a', _isBigNumber: true },
+  '104': BigNumber { _hex: '0x2c5e9733de00baf27a63', _isBigNumber: true },
+  '112': BigNumber { _hex: '0x3e3088c2bf7475802037', _isBigNumber: true },
+  '113': BigNumber { _hex: '0x4c2e24630501a1a8ed75', _isBigNumber: true },
+  '123': BigNumber { _hex: '0x4c00a8ec097766ffc33d', _isBigNumber: true },
+  '138': BigNumber { _hex: '0x1a4d99c6b143c70611df', _isBigNumber: true },
+  '142': BigNumber { _hex: '0x4d65b009f170bd44ee3d', _isBigNumber: true },
+  '157': BigNumber { _hex: '0xf3e0cf85e3bbed863a82', _isBigNumber: true },
+  '181': BigNumber { _hex: '0x4ca2cd63628794eec4c3', _isBigNumber: true },
+  '210': BigNumber { _hex: '0x530c2d13968d5cca30e8', _isBigNumber: true },
+  '218': BigNumber { _hex: '0x42ab13fe3fc4740d11c8', _isBigNumber: true },
+  '223': BigNumber { _hex: '0x806c6d68bcedb5b5de29', _isBigNumber: true },
+  '234': BigNumber { _hex: '0x439a862fa73819461a47', _isBigNumber: true }
+}
+Choice voted 3 306659021200026851147413
+Choice voted 10 765042052889075246639550
+Choice voted 27 1000000069132250591
+Choice voted 39 794253054908497375436127
+Choice voted 45 1052962072793632978573442
+Choice voted 46 825485057067635934799910
+Choice voted 52 603015041687784134410322
+Choice voted 56 2618084180994039401412010
+Choice voted 89 669708046298421337269247
+Choice voted 99 362251025043226894922554
+Choice voted 104 209529014485211344435811
+Choice voted 112 293682020302897610235959
+Choice voted 113 359751024870396300684661
+Choice voted 123 358912024812394345644861
+Choice voted 138 124213008587124262703583
+Choice voted 142 365498025267699325922877
+Choice voted 157 1151682079618368763476610
+Choice voted 181 361903025019168911967427
+Choice voted 210 392181027112355222925544
+Choice voted 218 314832021765044715721160
+Choice voted 223 606463041926152072846889
+Choice voted 234 319249022070401872042567
+Total HH Power 12855355888719624035469115
+getDepositLogsWithApi
+fromBlock 39801929 toBlock 42144418
+https://api.gnosisscan.io/api?module=logs&action=getLogs&fromBlock=39801929&toBlock=42144418&address=0x1Fbb3041B086d5AEb4905a6cf087f57e6fA87CBf&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x0000000000000000000000001154b0e98243f82521104b83fb099df1648ffb08&topic1_3_opr=and&topic0_3_opr=and&topic3=0x0000000000000000000000000000000000000000000000000000000068c87040&apikey=R3JWGCUES3F8GDV39M3HGME6Y24IDNB1HK
+getDepositLogsWithApi
+fromBlock 19541323 toBlock 25589125
+https://api.fraxscan.com/api?module=logs&action=getLogs&fromBlock=19541323&toBlock=25589125&address=0xEaE74D0ad80BA94F94182890Ec78DE92f7A85992&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x0000000000000000000000001b9cf9d509427697bfbed9c2e4ca334c3f61305d&topic1_3_opr=and&topic0_3_opr=and&topic3=0x0000000000000000000000000000000000000000000000000000000068c87040&apikey=VE9CZ8CG5QAMR3XTSFA7N2TFETAH9WB7FX
+Refunds {}
+--- 12855355888719624363395094
+Total delegated 42681255472895607018055440
+Tot 41225297731104716212298574
+Current total: {
+  '1-0xc0c293ce456ff0ed870add98a0828dd4d2903dbf': '5992723037052201783262',
+  '1-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': '46466903889',
+  '1-0xd33526068d116ce69f19a9ee46f0bd304f21a51f': '729599999999999999998',
+  '1-0x30d20208d987713f46dfd34ef128bb16c404d10f': '6240000000000000000000'
+}
+Optimizing...
+---------
+Token balances list {
+  '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': '35440893225',
+  '0xd33526068d116ce69f19a9ee46f0bd304f21a51f': '552935200482045724294',
+  '0x30d20208d987713f46dfd34ef128bb16c404d10f': '6239999999999999999937',
+  '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf': '3957067430873757650731'
+}
+------------------
+Generate distributions aura 1757966400 {} true
+Harvester rewards by chain {
+  '1': {
+    '0x43d4a3cd90ddd2f8f4f693170c9c8098163502ad': BigNumber { _hex: '0x0958ca0256fda7fc47', _isBigNumber: true },
+    '0xef3a930e1ffffacd2fc13434ac81bd278b0ecc8d': BigNumber { _hex: '0x01ba55b4cfb264636b', _isBigNumber: true },
+    '0x8290333cef9e6d528dd5618fb97a76f268f3edd4': BigNumber { _hex: '0x0a577fda279c545d', _isBigNumber: true },
+    '0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321': BigNumber { _hex: '0x2be5c963728759f3', _isBigNumber: true },
+    '0xdbdb4d16eda451d0503b854cf79d55697f90c8df': BigNumber { _hex: '0x01c182460a5a38f2', _isBigNumber: true },
+    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': BigNumber { _hex: '0x02583a4fad', _isBigNumber: true }
+  },
+  '10': {
+    '0x39fde572a18448f8139b7788099f0a0740f51205': BigNumber { _hex: '0x05a6783595302630c8', _isBigNumber: true },
+    '0x0b2c639c533813f4aa9d7837caf62653d097ff85': BigNumber { _hex: '0x088f73', _isBigNumber: true },
+    '0x1f32b1c2345538c0c6f582fcb022739c4a194ebb': BigNumber { _hex: '0xa27ae027eaa8', _isBigNumber: true },
+    '0x00e1724885473b63bce08a9f0a52f35b0979e35a': BigNumber { _hex: '0xd7dcf43789f89232', _isBigNumber: true },
+    '0x7f5c764cbc14f9669b88837ca1490cca17c31607': BigNumber { _hex: '0x037b388f', _isBigNumber: true },
+    '0x67ccea5bb16181e7b4109c9c2143c24a1c2205be': BigNumber { _hex: '0x1033d5195376af6e25', _isBigNumber: true },
+    '0x4200000000000000000000000000000000000042': BigNumber { _hex: '0x0afe7afb8fabdd29', _isBigNumber: true }
+  },
+  '42161': {
+    '0xbfbcfe8873fe28dfa25f1099282b088d52bbad9c': BigNumber { _hex: '0x148e37d9e5f190d6', _isBigNumber: true },
+    '0x43ab8f7d2a8dd4102ccea6b438f6d747b1b9f034': BigNumber { _hex: '0x1e0c232ae38309eb', _isBigNumber: true },
+    '0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7': BigNumber { _hex: '0x83e567c9644eaba3', _isBigNumber: true },
+    '0x912ce59144191c1204e64559fe8253a0e49e6548': BigNumber { _hex: '0x1c6c9e089bd9813e', _isBigNumber: true },
+    '0xaf88d065e77c8cc2239327c5edb3a432268e5831': BigNumber { _hex: '0x0397f3', _isBigNumber: true }
+  }
+}
+Reward distribution (simulation: true) for BEETS
+Forward block 46963440
+Blacklisted []
+Proposal 17 1757966400 0x4bfc156cd9ea457d16fc45950698855618cd9145197370bbaa5a6b268d75d67b
+Voters count 146
+Total weight 78453715320993870148295000
+HH user votes undefined
+Empty HH delegation
+getDepositLogsWithApi
+fromBlock 41673874 toBlock 46990073
+https://api.sonicscan.org/api?module=logs&action=getLogs&fromBlock=41673874&toBlock=46990073&address=0x1fbb3041b086d5aeb4905a6cf087f57e6fa87cbf&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x0000000000000000000000002a537a574a329e0f00e36f876fda03e66f4db355&topic1_3_opr=and&topic0_3_opr=and&topic3=0x0000000000000000000000000000000000000000000000000000000068c87040&apikey=8B4TQF9KCD7JPWJIT3NG72Q4S31B136V1G
+Bribes {
+  '0x73635553442f7374532d57656967687465642d307832356361': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0314be7b601153800000', _isBigNumber: true }
+  },
+  '0x525a522f7374532d57656967687465642d307833366536': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0xdac887f93408800000', _isBigNumber: true }
+  },
+  '0x6c7374525a522f525a522d537461626c652d307864643330': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0212b8a721eee0400000', _isBigNumber: true }
+  },
+  '0x574554482f525a522d57656967687465642d307866306232': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x048d7955ec5b46200000', _isBigNumber: true }
+  },
+  '0x77532f555344432d7265434c414d4d2d307861346339': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x04aa68be605ff6a00000', _isBigNumber: true }
+  },
+  '0x42454554532f536861646f772f7853494c4f2f4d4554524f2f535750782f455155414c2f42525553482f7374532d57656967687465642d307866306635': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x03407587af93ce800000', _isBigNumber: true }
+  },
+  '0x77532f7374532d45434c502d307833346238': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x01410b970ea0b1600000', _isBigNumber: true }
+  },
+  '0x574554482f73634554482f7773746b73634554482d426f6f737465642d307838363230': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0149d71f530b18c00000', _isBigNumber: true }
+  },
+  '0x444555532f7374532d57656967687465642d307833323264': {
+    '146-0xde55b113a27cc0c5893caa6ee1c020b6b46650c0': BigNumber { _hex: '0x6a94d74f43000000', _isBigNumber: true }
+  },
+  '0x555344432f7374532d57656967687465642d307837313366': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x41d52f7dd542600000', _isBigNumber: true }
+  },
+  '0x555344432f464c592f7374532d57656967687465642d307861343736': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0xa53b7f4b00fea00000', _isBigNumber: true }
+  },
+  '0x45434f2f7374532d57656967687465642d307837313231': {
+    '146-0x7a08bf5304094ca4c7b4132ef62b5edc4a3478b7': BigNumber { _hex: '0x19ce92b42b1f8c9000', _isBigNumber: true }
+  },
+  '0x555344432f574554482d45434c502d4d44': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0375480be4fc23200000', _isBigNumber: true }
+  },
+  '0x6c7374525a522f7374532d57656967687465642d307833303763': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0xe3297b664f2ce00000', _isBigNumber: true }
+  },
+  '0x73635553442f645553442f555344432d426f6f737465642d307837393066': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0xa0dc647640bf200000', _isBigNumber: true }
+  },
+  '0x736d735553442f555344432d426f6f737465642d307834313243': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0133e0f3f5760a800000', _isBigNumber: true }
+  },
+  '0x77532f555344432f574554482f73634254432d4254462d307837346463': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0eae166c5f29cfe00000', _isBigNumber: true }
+  },
+  '0x555344432f574554482d7265434c414d4d2d307834616666': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0220edbe555faea00000', _isBigNumber: true }
+  },
+  '0x77532f7374532d537461626c652d307833373436': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0f3198d38a169b800000', _isBigNumber: true }
+  },
+  '0x73634554482f774554482d537461626c652d307865353464': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x4ceaea62739a400000', _isBigNumber: true }
+  },
+  '0x774554482f77532d45434c502d307835323038': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x60d980266641e00000', _isBigNumber: true }
+  },
+  '0x555344432f73635553442d426f6f737465642d307834333032': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x6011a912b1a4400000', _isBigNumber: true }
+  },
+  '0x555344432f7773746b73635553442f73635553442d426f6f737465642d307835344361': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x01bf8f0421d659000000', _isBigNumber: true }
+  },
+  '0x6d735553442f555344432d426f6f737465642d307830616537': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x5a72cfb8039bc00000', _isBigNumber: true }
+  },
+  '0x774254432f774554482d45434c502d307837613232': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x35b5007ef0c3000000', _isBigNumber: true }
+  },
+  '0x77532f616e532d426f6f737465642d307839343464': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x11d86dd0e06ad7000000', _isBigNumber: true }
+  },
+  '0x77532f555344432d45434c502d4d44': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x059ee6ad48f268600000', _isBigNumber: true }
+  },
+  '0x73634554482f73634254432f73635553442f7374532d57656967687465642d307862643461': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x011c25d004d01f800000', _isBigNumber: true }
+  }
+}
+Refunds {}
+Fetch balances
+DelegateeBalances length 144
+Tot 78453715320993887323217640
+Current total: {
+  '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': '415777919999999999999817',
+  '146-0xde55b113a27cc0c5893caa6ee1c020b6b46650c0': '7679999999999999994',
+  '146-0x7a08bf5304094ca4c7b4132ef62b5edc4a3478b7': '476053759658457599996'
+}
+------------------
+Generate distributions beets 1757966400 {} true
+Harvester rewards by chain {}
+All coin candidates {
+  '1': {
+    '0x43d4a3cd90ddd2f8f4f693170c9c8098163502ad': BigNumber { _hex: '0x0958ca0256fda7fc47', _isBigNumber: true },
+    '0xef3a930e1ffffacd2fc13434ac81bd278b0ecc8d': BigNumber { _hex: '0x01ba55b4cfb264636b', _isBigNumber: true },
+    '0x8290333cef9e6d528dd5618fb97a76f268f3edd4': BigNumber { _hex: '0x0a577fda279c545d', _isBigNumber: true },
+    '0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321': BigNumber { _hex: '0x2be5c963728759f3', _isBigNumber: true },
+    '0xdbdb4d16eda451d0503b854cf79d55697f90c8df': BigNumber { _hex: '0x01c182460a5a38f2', _isBigNumber: true },
+    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': BigNumber { _hex: '0x02583a4fad', _isBigNumber: true }
+  },
+  '10': {
+    '0x39fde572a18448f8139b7788099f0a0740f51205': BigNumber { _hex: '0x05a6783595302630c8', _isBigNumber: true },
+    '0x0b2c639c533813f4aa9d7837caf62653d097ff85': BigNumber { _hex: '0x088f73', _isBigNumber: true },
+    '0x1f32b1c2345538c0c6f582fcb022739c4a194ebb': BigNumber { _hex: '0xa27ae027eaa8', _isBigNumber: true },
+    '0x00e1724885473b63bce08a9f0a52f35b0979e35a': BigNumber { _hex: '0xd7dcf43789f89232', _isBigNumber: true },
+    '0x7f5c764cbc14f9669b88837ca1490cca17c31607': BigNumber { _hex: '0x037b388f', _isBigNumber: true },
+    '0x67ccea5bb16181e7b4109c9c2143c24a1c2205be': BigNumber { _hex: '0x1033d5195376af6e25', _isBigNumber: true },
+    '0x4200000000000000000000000000000000000042': BigNumber { _hex: '0x0afe7afb8fabdd29', _isBigNumber: true }
+  },
+  '42161': {
+    '0xbfbcfe8873fe28dfa25f1099282b088d52bbad9c': BigNumber { _hex: '0x148e37d9e5f190d6', _isBigNumber: true },
+    '0x43ab8f7d2a8dd4102ccea6b438f6d747b1b9f034': BigNumber { _hex: '0x1e0c232ae38309eb', _isBigNumber: true },
+    '0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7': BigNumber { _hex: '0x83e567c9644eaba3', _isBigNumber: true },
+    '0x912ce59144191c1204e64559fe8253a0e49e6548': BigNumber { _hex: '0x1c6c9e089bd9813e', _isBigNumber: true },
+    '0xaf88d065e77c8cc2239327c5edb3a432268e5831': BigNumber { _hex: '0x0397f3', _isBigNumber: true }
+  }
+}
+Check swap (Paraswap) 0x43d4a3cd90ddd2f8f4f693170c9c8098163502ad BigNumber { _hex: '0x0958ca0256fda7fc47', _isBigNumber: true } 200 1
+0x43d4a3cd90ddd2f8f4f693170c9c8098163502ad D2D 0.15860444518507724
+Insufficient value for swap for D2D
+Check swap (Paraswap) 0xef3a930e1ffffacd2fc13434ac81bd278b0ecc8d BigNumber { _hex: '0x01ba55b4cfb264636b', _isBigNumber: true } 200 1
+0xef3a930e1ffffacd2fc13434ac81bd278b0ecc8d FIS 3.4891371366574515
+Insufficient value for swap for FIS
+Check swap (Paraswap) 0x8290333cef9e6d528dd5618fb97a76f268f3edd4 BigNumber { _hex: '0x0a577fda279c545d', _isBigNumber: true } 200 1
+0x8290333cef9e6d528dd5618fb97a76f268f3edd4 ANKR 0.01112318078606994
+Insufficient value for swap for ANKR
+Check swap (Paraswap) 0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321 BigNumber { _hex: '0x2be5c963728759f3', _isBigNumber: true } 200 1
+0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321 VITA 5.693680336064507
+Insufficient value for swap for VITA
+Check swap (Paraswap) 0xdbdb4d16eda451d0503b854cf79d55697f90c8df BigNumber { _hex: '0x01c182460a5a38f2', _isBigNumber: true } 200 1
+0xdbdb4d16eda451d0503b854cf79d55697f90c8df ALCX 1.2032575228416267
+Insufficient value for swap for ALCX
+Check swap (Paraswap) 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 BigNumber { _hex: '0x02583a4fad', _isBigNumber: true } 200 1
+0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 USDC 10067.724178588514
+10070.151085 USDC -> 2.22463772070846638 WETH
+Check swap (Paraswap) 0x39fde572a18448f8139b7788099f0a0740f51205 BigNumber { _hex: '0x05a6783595302630c8', _isBigNumber: true } 200 10
+0x39fde572a18448f8139b7788099f0a0740f51205 OATH 3.8664009791833465
+Insufficient value for swap for OATH
+Check swap (Paraswap) 0x0b2c639c533813f4aa9d7837caf62653d097ff85 BigNumber { _hex: '0x088f73', _isBigNumber: true } 200 10
+0x0b2c639c533813f4aa9d7837caf62653d097ff85 USDC 0.560875796349
+Insufficient value for swap for USDC
+Check swap (Paraswap) 0x1f32b1c2345538c0c6f582fcb022739c4a194ebb BigNumber { _hex: '0xa27ae027eaa8', _isBigNumber: true } 200 10
+0x1f32b1c2345538c0c6f582fcb022739c4a194ebb WSTETH 0.9797769757148175
+Insufficient value for swap for WSTETH
+Check swap (Paraswap) 0x00e1724885473b63bce08a9f0a52f35b0979e35a BigNumber { _hex: '0xd7dcf43789f89232', _isBigNumber: true } 200 10
+0x00e1724885473b63bce08a9f0a52f35b0979e35a OATH 0.009152001269433042
+Insufficient value for swap for OATH
+Check swap (Paraswap) 0x7f5c764cbc14f9669b88837ca1490cca17c31607 BigNumber { _hex: '0x037b388f', _isBigNumber: true } 200 10
+0x7f5c764cbc14f9669b88837ca1490cca17c31607 USDC.E 58.4012142945
+Insufficient value for swap for USDC.E
+Check swap (Paraswap) 0x67ccea5bb16181e7b4109c9c2143c24a1c2205be BigNumber { _hex: '0x1033d5195376af6e25', _isBigNumber: true } 200 10
+0x67ccea5bb16181e7b4109c9c2143c24a1c2205be FXS 803.9947978823791
+e: ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT
+    at /home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:38253
+    at l (/home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:1708)
+    at Generator.<anonymous> (/home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:3054)
+    at Generator.throw (/home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:2137)
+    at r (/home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:168)
+    at u (/home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:407)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_BAD_REQUEST',
+  status: 400,
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api.paraswap.io',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.paraswap.io',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: null,
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      write: [Function: writeAfterFIN],
+      [Symbol(res)]: null,
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 32246,
+      [Symbol(kHandle)]: null,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 1999,
+      [Symbol(kBytesWritten)]: 418,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET /prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18 HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.7.9\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: api.paraswap.io\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 0,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 400,
+      statusMessage: 'Bad Request',
+      client: [TLSSocket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api.paraswap.io/prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 22,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api.paraswap.io',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api.paraswap.io/prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 400,
+    statusText: 'Bad Request',
+    headers: Object [AxiosHeaders] {
+      date: 'Tue, 16 Sep 2025 02:26:28 GMT',
+      'content-type': 'application/json; charset=utf-8',
+      'transfer-encoding': 'chunked',
+      connection: 'close',
+      'access-control-allow-origin': '*',
+      'x-request-id': 'e810fb35-cdb5-4668-a8ee-564a78d3144e',
+      'x-handler-id': 'a1ba48c3928845a4a5b6947c73d7e34b-3607407455',
+      'cache-control': 'no-cache, no-store',
+      etag: 'W/"1722-ANnUsEdxsh3XJv3rUDaHUBAvtcs"',
+      vary: 'Accept-Encoding'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      url: 'https://api.paraswap.io/prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18',
+      method: 'get',
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [TLSSocket],
+      _header: 'GET /prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18 HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/1.7.9\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: api.paraswap.io\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api.paraswap.io',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: {
+      error: 'ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT',
+      value: '49.60%',
+      priceRoute: [Object]
+    }
+  },
+  isAxiosError: true
+}
+Insufficient amount to swap or liquidity 0
+e: ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT
+    at /home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:38253
+    at l (/home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:1708)
+    at Generator.<anonymous> (/home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:3054)
+    at Generator.throw (/home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:2137)
+    at r (/home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:168)
+    at u (/home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:407)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_BAD_REQUEST',
+  status: 400,
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api.paraswap.io',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.paraswap.io',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: null,
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      write: [Function: writeAfterFIN],
+      [Symbol(res)]: null,
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 32278,
+      [Symbol(kHandle)]: null,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 1999,
+      [Symbol(kBytesWritten)]: 418,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET /prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18 HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.7.9\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: api.paraswap.io\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 0,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 400,
+      statusMessage: 'Bad Request',
+      client: [TLSSocket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api.paraswap.io/prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 22,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api.paraswap.io',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api.paraswap.io/prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 400,
+    statusText: 'Bad Request',
+    headers: Object [AxiosHeaders] {
+      date: 'Tue, 16 Sep 2025 02:26:30 GMT',
+      'content-type': 'application/json; charset=utf-8',
+      'transfer-encoding': 'chunked',
+      connection: 'close',
+      'access-control-allow-origin': '*',
+      'x-request-id': 'ad060195-353e-41a9-910f-338c0443a214',
+      'x-handler-id': '0f98ff35f88b42258f89287cca46c077-3607407455',
+      'cache-control': 'no-cache, no-store',
+      etag: 'W/"1519-ntmbED6qjSW3u0G3N3ZslA0Gu2I"',
+      vary: 'Accept-Encoding'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      url: 'https://api.paraswap.io/prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18',
+      method: 'get',
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [TLSSocket],
+      _header: 'GET /prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18 HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/1.7.9\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: api.paraswap.io\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api.paraswap.io',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: {
+      error: 'ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT',
+      value: '49.60%',
+      priceRoute: [Object]
+    }
+  },
+  isAxiosError: true
+}
+Insufficient amount to swap or liquidity 1
+e: ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT
+    at /home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:38253
+    at l (/home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:1708)
+    at Generator.<anonymous> (/home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:3054)
+    at Generator.throw (/home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:2137)
+    at r (/home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:168)
+    at u (/home/ec2-user/hidden-hand-backend/node_modules/@paraswap/sdk/dist/sdk.cjs.production.min.js:1:407)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_BAD_REQUEST',
+  status: 400,
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api.paraswap.io',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.paraswap.io',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: null,
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      write: [Function: writeAfterFIN],
+      [Symbol(res)]: null,
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 32310,
+      [Symbol(kHandle)]: null,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 1748,
+      [Symbol(kBytesWritten)]: 418,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET /prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18 HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.7.9\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: api.paraswap.io\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 0,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 400,
+      statusMessage: 'Bad Request',
+      client: [TLSSocket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api.paraswap.io/prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 22,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api.paraswap.io',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api.paraswap.io/prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 400,
+    statusText: 'Bad Request',
+    headers: Object [AxiosHeaders] {
+      date: 'Tue, 16 Sep 2025 02:26:32 GMT',
+      'content-type': 'application/json; charset=utf-8',
+      'transfer-encoding': 'chunked',
+      connection: 'close',
+      'access-control-allow-origin': '*',
+      'x-request-id': '2bd73ff2-8f97-41e0-a90c-f5f878e47b1e',
+      'x-handler-id': '0f98ff35f88b42258f89287cca46c077-3607407455',
+      'cache-control': 'no-cache, no-store',
+      etag: 'W/"108f-totKwep3X1J3UU0TFDoTKNZmevs"',
+      vary: 'Accept-Encoding'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      url: 'https://api.paraswap.io/prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18',
+      method: 'get',
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [TLSSocket],
+      _header: 'GET /prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18 HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/1.7.9\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: api.paraswap.io\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/prices/?srcToken=0x67ccea5bb16181e7b4109c9c2143c24a1c2205be&destToken=0x4200000000000000000000000000000000000006&network=10&version=6.2&amount=298882824491590708773&userAddress=0x4200000000000000000000000000000000000006&side=SELL&srcDecimals=18',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api.paraswap.io',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: {
+      error: 'ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT',
+      value: '49.59%',
+      priceRoute: [Object]
+    }
+  },
+  isAxiosError: true
+}
+Insufficient amount to swap or liquidity 2
+Swap not available for FXS
+Check swap (Paraswap) 0x4200000000000000000000000000000000000042 BigNumber { _hex: '0x0afe7afb8fabdd29', _isBigNumber: true } 200 10
+0x4200000000000000000000000000000000000042 OP 0.587415851417045
+Insufficient value for swap for OP
+Check swap (Paraswap) 0xbfbcfe8873fe28dfa25f1099282b088d52bbad9c BigNumber { _hex: '0x148e37d9e5f190d6', _isBigNumber: true } 200 42161
+0xbfbcfe8873fe28dfa25f1099282b088d52bbad9c EQB 0.6673172582558444
+Insufficient value for swap for EQB
+Check swap (Paraswap) 0x43ab8f7d2a8dd4102ccea6b438f6d747b1b9f034 BigNumber { _hex: '0x1e0c232ae38309eb', _isBigNumber: true } 200 42161
+0x43ab8f7d2a8dd4102ccea6b438f6d747b1b9f034 SVY 0.00368944899918631
+Insufficient value for swap for SVY
+Check swap (Paraswap) 0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7 BigNumber { _hex: '0x83e567c9644eaba3', _isBigNumber: true } 200 42161
+0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7 FXS 25.56607393188847
+Insufficient value for swap for FXS
+Check swap (Paraswap) 0x912ce59144191c1204e64559fe8253a0e49e6548 BigNumber { _hex: '0x1c6c9e089bd9813e', _isBigNumber: true } 200 42161
+0x912ce59144191c1204e64559fe8253a0e49e6548 ARB 1.0055854392811132
+Insufficient value for swap for ARB
+Check swap (Paraswap) 0xaf88d065e77c8cc2239327c5edb3a432268e5831 BigNumber { _hex: '0x0397f3', _isBigNumber: true } 200 42161
+0xaf88d065e77c8cc2239327c5edb3a432268e5831 USDC 0.23545024281299998
+Insufficient value for swap for USDC
+Eligible tokens {
+  '1': [ '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48' ],
+  '10': [],
+  '42161': []
+}
+Reward distribution (simulation: false) for AURA
+Forward block 23372512
+Blacklisted [
+  '0x1c8bcb6348c84122e67a50e513a1e183c0e6929a',
+  '0x9ff471f9f98f42e5151c7855fd1b5aa906b1af7e',
+  '0xa52fd396891e7a74b641a2cb1a6999fcf56b077e',
+  '0xf17149326ec300c5650ed983afa9a8114fef2400'
+]
+Proposal 68 1757966400 0x18ea9eaeb1f1592593505a62c9360ceca33314a7e963e94817dd05f6c23b4481
+Snapshot at block # 23336104 and timestamp = 1757548800
+Snapshot at block # 35379727 and timestamp = 1757548800
+Total weight 41225297731104717635300000
+HH user votes {
+  '3': BigNumber { _hex: '0x40f004d3584be75cfe95', _isBigNumber: true },
+  '10': BigNumber { _hex: '0xa20103462819291b29be', _isBigNumber: true },
+  '27': BigNumber { _hex: '0x0de0b6c3bffe6ddf', _isBigNumber: true },
+  '39': BigNumber { _hex: '0xa8308b5c9a3db34a9d5f', _isBigNumber: true },
+  '45': BigNumber { _hex: '0xdef9303745a64ae11882', _isBigNumber: true },
+  '46': BigNumber { _hex: '0xaecda275e3bcfa24a826', _isBigNumber: true },
+  '52': BigNumber { _hex: '0x7fb182cb206bce8a0052', _isBigNumber: true },
+  '56': BigNumber { _hex: '0x022a66a0ba11984e0bf5aa', _isBigNumber: true },
+  '89': BigNumber { _hex: '0x8dd0f228e31cf62823ff', _isBigNumber: true },
+  '99': BigNumber { _hex: '0x4cb5aadbd4a09065f33a', _isBigNumber: true },
+  '104': BigNumber { _hex: '0x2c5e9733de00baf27a63', _isBigNumber: true },
+  '112': BigNumber { _hex: '0x3e3088c2bf7475802037', _isBigNumber: true },
+  '113': BigNumber { _hex: '0x4c2e24630501a1a8ed75', _isBigNumber: true },
+  '123': BigNumber { _hex: '0x4c00a8ec097766ffc33d', _isBigNumber: true },
+  '138': BigNumber { _hex: '0x1a4d99c6b143c70611df', _isBigNumber: true },
+  '142': BigNumber { _hex: '0x4d65b009f170bd44ee3d', _isBigNumber: true },
+  '157': BigNumber { _hex: '0xf3e0cf85e3bbed863a82', _isBigNumber: true },
+  '181': BigNumber { _hex: '0x4ca2cd63628794eec4c3', _isBigNumber: true },
+  '210': BigNumber { _hex: '0x530c2d13968d5cca30e8', _isBigNumber: true },
+  '218': BigNumber { _hex: '0x42ab13fe3fc4740d11c8', _isBigNumber: true },
+  '223': BigNumber { _hex: '0x806c6d68bcedb5b5de29', _isBigNumber: true },
+  '234': BigNumber { _hex: '0x439a862fa73819461a47', _isBigNumber: true }
+}
+Choice voted 3 306659021200026851147413
+Choice voted 10 765042052889075246639550
+Choice voted 27 1000000069132250591
+Choice voted 39 794253054908497375436127
+Choice voted 45 1052962072793632978573442
+Choice voted 46 825485057067635934799910
+Choice voted 52 603015041687784134410322
+Choice voted 56 2618084180994039401412010
+Choice voted 89 669708046298421337269247
+Choice voted 99 362251025043226894922554
+Choice voted 104 209529014485211344435811
+Choice voted 112 293682020302897610235959
+Choice voted 113 359751024870396300684661
+Choice voted 123 358912024812394345644861
+Choice voted 138 124213008587124262703583
+Choice voted 142 365498025267699325922877
+Choice voted 157 1151682079618368763476610
+Choice voted 181 361903025019168911967427
+Choice voted 210 392181027112355222925544
+Choice voted 218 314832021765044715721160
+Choice voted 223 606463041926152072846889
+Choice voted 234 319249022070401872042567
+Total HH Power 12855355888719624035469115
+getDepositLogsWithApi
+fromBlock 39802008 toBlock 42144489
+https://api.gnosisscan.io/api?module=logs&action=getLogs&fromBlock=39802008&toBlock=42144489&address=0x1Fbb3041B086d5AEb4905a6cf087f57e6fA87CBf&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x0000000000000000000000001154b0e98243f82521104b83fb099df1648ffb08&topic1_3_opr=and&topic0_3_opr=and&topic3=0x0000000000000000000000000000000000000000000000000000000068c87040&apikey=R3JWGCUES3F8GDV39M3HGME6Y24IDNB1HK
+TypeError: result.forEach is not a function
+    at getDepositLogsWithApi (/home/ec2-user/hidden-hand-backend/src/lib/common.js:363:16)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-
-Node.js v18.18.2
+    at async /home/ec2-user/hidden-hand-backend/reward-v2/utils.js:354:25
+TypeError: result.forEach is not a function
+    at getDepositLogsWithApi (/home/ec2-user/hidden-hand-backend/src/lib/common.js:363:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/ec2-user/hidden-hand-backend/reward-v2/utils.js:354:25
+TypeError: result.forEach is not a function
+    at getDepositLogsWithApi (/home/ec2-user/hidden-hand-backend/src/lib/common.js:363:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/ec2-user/hidden-hand-backend/reward-v2/utils.js:354:25
+TypeError: result.forEach is not a function
+    at getDepositLogsWithApi (/home/ec2-user/hidden-hand-backend/src/lib/common.js:363:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/ec2-user/hidden-hand-backend/reward-v2/utils.js:354:25
+TypeError: result.forEach is not a function
+    at getDepositLogsWithApi (/home/ec2-user/hidden-hand-backend/src/lib/common.js:363:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/ec2-user/hidden-hand-backend/reward-v2/utils.js:354:25
+TypeError: result.forEach is not a function
+    at getDepositLogsWithApi (/home/ec2-user/hidden-hand-backend/src/lib/common.js:363:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/ec2-user/hidden-hand-backend/reward-v2/utils.js:354:25
+TypeError: result.forEach is not a function
+    at getDepositLogsWithApi (/home/ec2-user/hidden-hand-backend/src/lib/common.js:363:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/ec2-user/hidden-hand-backend/reward-v2/utils.js:354:25
+getDepositLogsWithApi
+fromBlock 19541523 toBlock 25589325
+https://api.fraxscan.com/api?module=logs&action=getLogs&fromBlock=19541523&toBlock=25589325&address=0xEaE74D0ad80BA94F94182890Ec78DE92f7A85992&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x0000000000000000000000001b9cf9d509427697bfbed9c2e4ca334c3f61305d&topic1_3_opr=and&topic0_3_opr=and&topic3=0x0000000000000000000000000000000000000000000000000000000068c87040&apikey=VE9CZ8CG5QAMR3XTSFA7N2TFETAH9WB7FX
+Refunds {}
+--- 12855355888719624363395094
+Total delegated 42681255472895607018055440
+Tot 41225297731104716212298574
+Current total: {
+  '1-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': '46466903889',
+  '1-0xc0c293ce456ff0ed870add98a0828dd4d2903dbf': '5992723037052201783262',
+  '1-0xd33526068d116ce69f19a9ee46f0bd304f21a51f': '729599999999999999998',
+  '1-0x30d20208d987713f46dfd34ef128bb16c404d10f': '6240000000000000000000'
+}
+------------------
+Generate distributions aura 1757966400 {
+  '1': [ '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48' ],
+  '10': [],
+  '42161': []
+} false
+Transformed calldata 1 [
+  [
+    '0xc94b2bc3b483bca04d89fe72d8e8acc83c158126f56027616f8bc950956960a7',
+    '0x30d20208d987713f46dfd34ef128bb16c404d10f',
+    '0x0d2c62639fef25cf9be947ed9c66b59068529eedf12f54502dd86d6c1377a2b2',
+    '0xe47e6345ade8bab9f6cd50e056cbd666a0c4fb39eed7ec85303a125506ce5457'
+  ],
+  [
+    '0x6b775bb35addec5f55aeb4dae56161752c36517721776c3e623c22ac334c7436',
+    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+    '0xb42cedeb18d9edf9d5ccd86a03049ddf6df5b12906cca68b44b42561e5248b0c',
+    '0xaf173f5df2f766495ab2e42d39943986c051162ab7692360f52890bc0f4bba0d'
+  ],
+  [
+    '0x8d8e1759ef3a8862414280b103c8912e82d5b19502d9dee8a685dacb2c0e5769',
+    '0xd33526068d116ce69f19a9ee46f0bd304f21a51f',
+    '0x1009d48a0149f022d14b0c9f6a90fdacd49edc74b686a2d8a1502e1b67854142',
+    '0x759c52e7fb9fd9035f8bb757fe7f6b396e519fed13d0ba82392a65c96a6c2252'
+  ],
+  [
+    '0xc263700a874e4dcebfc105425101ae6bbd9f81a6468078af18a3c969a8d92c88',
+    '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf',
+    '0x000c9ce2aac3d6b5ec00b75201361b77c31f26a300be6ddee3a858097a0f6b01',
+    '0x5d58096ae33ec33dbd024e2dd997378c01785ced4fa66634d293391e402dd514'
+  ]
+]
+Reward distribution (simulation: false) for BEETS
+Forward block 46963440
+Blacklisted []
+Proposal 17 1757966400 0x4bfc156cd9ea457d16fc45950698855618cd9145197370bbaa5a6b268d75d67b
+Voters count 146
+Total weight 78453715320993870148295000
+HH user votes undefined
+Empty HH delegation
+getDepositLogsWithApi
+fromBlock 41674469 toBlock 46990534
+https://api.sonicscan.org/api?module=logs&action=getLogs&fromBlock=41674469&toBlock=46990534&address=0x1fbb3041b086d5aeb4905a6cf087f57e6fa87cbf&topic0=0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7&topic0_1_opr=and&topic1=0x0000000000000000000000002a537a574a329e0f00e36f876fda03e66f4db355&topic1_3_opr=and&topic0_3_opr=and&topic3=0x0000000000000000000000000000000000000000000000000000000068c87040&apikey=8B4TQF9KCD7JPWJIT3NG72Q4S31B136V1G
+Bribes {
+  '0x77532f7374532d537461626c652d307833373436': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0f3198d38a169b800000', _isBigNumber: true }
+  },
+  '0x555344432f73635553442d426f6f737465642d307834333032': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x6011a912b1a4400000', _isBigNumber: true }
+  },
+  '0x525a522f7374532d57656967687465642d307833366536': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0xdac887f93408800000', _isBigNumber: true }
+  },
+  '0x77532f555344432f574554482f73634254432d4254462d307837346463': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0eae166c5f29cfe00000', _isBigNumber: true }
+  },
+  '0x574554482f525a522d57656967687465642d307866306232': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x048d7955ec5b46200000', _isBigNumber: true }
+  },
+  '0x77532f616e532d426f6f737465642d307839343464': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x11d86dd0e06ad7000000', _isBigNumber: true }
+  },
+  '0x555344432f574554482d45434c502d4d44': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0375480be4fc23200000', _isBigNumber: true }
+  },
+  '0x774254432f774554482d45434c502d307837613232': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x35b5007ef0c3000000', _isBigNumber: true }
+  },
+  '0x574554482f73634554482f7773746b73634554482d426f6f737465642d307838363230': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0149d71f530b18c00000', _isBigNumber: true }
+  },
+  '0x6c7374525a522f7374532d57656967687465642d307833303763': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0xe3297b664f2ce00000', _isBigNumber: true }
+  },
+  '0x6c7374525a522f525a522d537461626c652d307864643330': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0212b8a721eee0400000', _isBigNumber: true }
+  },
+  '0x555344432f7374532d57656967687465642d307837313366': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x41d52f7dd542600000', _isBigNumber: true }
+  },
+  '0x444555532f7374532d57656967687465642d307833323264': {
+    '146-0xde55b113a27cc0c5893caa6ee1c020b6b46650c0': BigNumber { _hex: '0x6a94d74f43000000', _isBigNumber: true }
+  },
+  '0x555344432f464c592f7374532d57656967687465642d307861343736': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0xa53b7f4b00fea00000', _isBigNumber: true }
+  },
+  '0x555344432f574554482d7265434c414d4d2d307834616666': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0220edbe555faea00000', _isBigNumber: true }
+  },
+  '0x736d735553442f555344432d426f6f737465642d307834313243': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0133e0f3f5760a800000', _isBigNumber: true }
+  },
+  '0x73634554482f774554482d537461626c652d307865353464': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x4ceaea62739a400000', _isBigNumber: true }
+  },
+  '0x77532f555344432d7265434c414d4d2d307861346339': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x04aa68be605ff6a00000', _isBigNumber: true }
+  },
+  '0x45434f2f7374532d57656967687465642d307837313231': {
+    '146-0x7a08bf5304094ca4c7b4132ef62b5edc4a3478b7': BigNumber { _hex: '0x19ce92b42b1f8c9000', _isBigNumber: true }
+  },
+  '0x774554482f77532d45434c502d307835323038': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x60d980266641e00000', _isBigNumber: true }
+  },
+  '0x77532f7374532d45434c502d307833346238': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x01410b970ea0b1600000', _isBigNumber: true }
+  },
+  '0x77532f555344432d45434c502d4d44': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x059ee6ad48f268600000', _isBigNumber: true }
+  },
+  '0x6d735553442f555344432d426f6f737465642d307830616537': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x5a72cfb8039bc00000', _isBigNumber: true }
+  },
+  '0x73635553442f645553442f555344432d426f6f737465642d307837393066': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0xa0dc647640bf200000', _isBigNumber: true }
+  },
+  '0x73635553442f7374532d57656967687465642d307832356361': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x0314be7b601153800000', _isBigNumber: true }
+  },
+  '0x555344432f7773746b73635553442f73635553442d426f6f737465642d307835344361': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x01bf8f0421d659000000', _isBigNumber: true }
+  },
+  '0x73634554482f73634254432f73635553442f7374532d57656967687465642d307862643461': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x011c25d004d01f800000', _isBigNumber: true }
+  },
+  '0x42454554532f536861646f772f7853494c4f2f4d4554524f2f535750782f455155414c2f42525553482f7374532d57656967687465642d307866306635': {
+    '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': BigNumber { _hex: '0x03407587af93ce800000', _isBigNumber: true }
+  }
+}
+Refunds {}
+DelegateeBalances length 144
+Tot 78453715320993887323217640
+Current total: {
+  '146-0x2d0e0814e62d80056181f5cd932274405966e4f0': '415777919999999999999817',
+  '146-0xde55b113a27cc0c5893caa6ee1c020b6b46650c0': '7679999999999999994',
+  '146-0x7a08bf5304094ca4c7b4132ef62b5edc4a3478b7': '476053759658457599996'
+}
+------------------
+Generate distributions beets 1757966400 {
+  '1': [ '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48' ],
+  '10': [],
+  '42161': []
+} false
+Transformed calldata 146 [
+  [
+    '0x7f7545ac6809280df3d9f3b668e19ac32d5ddd1fff32e1680b4427e8f13bc840',
+    '0x2d0e0814e62d80056181f5cd932274405966e4f0',
+    '0xb287c0e3585e9d5a9602a918ce5777adb3ae4d69d79e94eb9bf4e9e62414d681',
+    '0x6a153c06dc36086c8411a01600454cccfaa45e4a70547935f61dc67da10a44fe'
+  ],
+  [
+    '0xf634a79d82ce8fa64832464da157acbfb5a60d6b4a28c395a182a6fc54697864',
+    '0x7a08bf5304094ca4c7b4132ef62b5edc4a3478b7',
+    '0x6cba0ea87ab82887149ebf1e2261beb57eb068832dc9cc05e3f25e563f6a07ac',
+    '0x8427b05b05076b23b3959b1fb21488a88209c5f2bfbf8eeae812b925558167ae'
+  ],
+  [
+    '0xd7fffb966cb224b3de2cca9a9d9e8b140fd348c45f52750eeb9242ab3c775e54',
+    '0xde55b113a27cc0c5893caa6ee1c020b6b46650c0',
+    '0x9535e2440002d4f363eacf40c7ea7b5dc721c3c28a6e0794297378a253e23d0d',
+    '0xf6761ae3ee992c727843097a7c58d12576ab347c2dbeaac1a7700c0d1154de4d'
+  ]
+]
+Final metadata
+{
+  '1': [
+    [
+      '0xc94b2bc3b483bca04d89fe72d8e8acc83c158126f56027616f8bc950956960a7',
+      '0x30d20208d987713f46dfd34ef128bb16c404d10f',
+      '0x0d2c62639fef25cf9be947ed9c66b59068529eedf12f54502dd86d6c1377a2b2',
+      '0xe47e6345ade8bab9f6cd50e056cbd666a0c4fb39eed7ec85303a125506ce5457'
+    ],
+    [
+      '0x6b775bb35addec5f55aeb4dae56161752c36517721776c3e623c22ac334c7436',
+      '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+      '0xb42cedeb18d9edf9d5ccd86a03049ddf6df5b12906cca68b44b42561e5248b0c',
+      '0xaf173f5df2f766495ab2e42d39943986c051162ab7692360f52890bc0f4bba0d'
+    ],
+    [
+      '0x8d8e1759ef3a8862414280b103c8912e82d5b19502d9dee8a685dacb2c0e5769',
+      '0xd33526068d116ce69f19a9ee46f0bd304f21a51f',
+      '0x1009d48a0149f022d14b0c9f6a90fdacd49edc74b686a2d8a1502e1b67854142',
+      '0x759c52e7fb9fd9035f8bb757fe7f6b396e519fed13d0ba82392a65c96a6c2252'
+    ],
+    [
+      '0xc263700a874e4dcebfc105425101ae6bbd9f81a6468078af18a3c969a8d92c88',
+      '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf',
+      '0x000c9ce2aac3d6b5ec00b75201361b77c31f26a300be6ddee3a858097a0f6b01',
+      '0x5d58096ae33ec33dbd024e2dd997378c01785ced4fa66634d293391e402dd514'
+    ]
+  ],
+  '146': [
+    [
+      '0x7f7545ac6809280df3d9f3b668e19ac32d5ddd1fff32e1680b4427e8f13bc840',
+      '0x2d0e0814e62d80056181f5cd932274405966e4f0',
+      '0xb287c0e3585e9d5a9602a918ce5777adb3ae4d69d79e94eb9bf4e9e62414d681',
+      '0x6a153c06dc36086c8411a01600454cccfaa45e4a70547935f61dc67da10a44fe'
+    ],
+    [
+      '0xf634a79d82ce8fa64832464da157acbfb5a60d6b4a28c395a182a6fc54697864',
+      '0x7a08bf5304094ca4c7b4132ef62b5edc4a3478b7',
+      '0x6cba0ea87ab82887149ebf1e2261beb57eb068832dc9cc05e3f25e563f6a07ac',
+      '0x8427b05b05076b23b3959b1fb21488a88209c5f2bfbf8eeae812b925558167ae'
+    ],
+    [
+      '0xd7fffb966cb224b3de2cca9a9d9e8b140fd348c45f52750eeb9242ab3c775e54',
+      '0xde55b113a27cc0c5893caa6ee1c020b6b46650c0',
+      '0x9535e2440002d4f363eacf40c7ea7b5dc721c3c28a6e0794297378a253e23d0d',
+      '0xf6761ae3ee992c727843097a7c58d12576ab347c2dbeaac1a7700c0d1154de4d'
+    ]
+  ]
+}
