@@ -6,13 +6,312 @@ Round has past expiry limit for lodestar
 Round has past expiry limit for thruster
 Round has past expiry limit for hyperlock
 Round has past expiry limit for beets
-Round not ending yet for omni
-/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:277
-    throw new Error('No protocol found');
-          ^
+Protocols [ 'omni' ]
+==============================
+aggregateOmniRewards: OMNI
+Reward distribution (simulation: true) for OMNI
+Deadlines:  1759881600 1758672000
+Blacklisted []
+Total user power 537421418143930207550957
+{
+  '0x189172b6b0023cc5a209695ccbcbf14b1119c2e6': {
+    '0x1c78a1f4c812540d4797fd96e1244d8a920d855f0ab6a890f67c7a716f8e1d46': BigNumber { _hex: '0x021e10ff550ac08200', _isBigNumber: true }
+  },
+  '0xcebc21becf6e2636677527fa2aaef392b75ce46e': {
+    '0xc807a888543da47d3ecf0de6f1c688d89aae3b63de5646623d2ad94db67718ff': BigNumber { _hex: '0x0a61b8d01ab9ec037400', _isBigNumber: true },
+    '0xa7cecdc946860bba2bc96ebfec515fe419dc1df19f909c3eb0339e504514bb05': BigNumber { _hex: '0x0ad54669d91b0b9ad500', _isBigNumber: true },
+    '0x40aa1cb6666d7c8e06fdd6e22330e7d370bdd77b51bb6b6b62fde2d4998b3975': BigNumber { _hex: '0x0eeb6a80fe7cb8705800', _isBigNumber: true },
+    '0x20f0dce1542444e0a59ca9d17676a19cdeaa80353cf81016188f381d72cadae8': BigNumber { _hex: '0x053df4fce3caf5776400', _isBigNumber: true },
+    '0x2244768c5489a3e2974c554137c16810f72a5157c9ba704b68d2748e6926b910': BigNumber { _hex: '0x0434f48469374d6e4c00', _isBigNumber: true },
+    '0xc6280dc479c0b8316378c5d3acd3b847016db2cf1e9980b8619f42f52dfc5bd3': BigNumber { _hex: '0x018a6bdcfde08f2700', _isBigNumber: true },
+    '0xe6eba1371c4a583b4bc0a1759c4644150667286b79cca0d7b63f198be7696416': BigNumber { _hex: '0x01ce3666f9847e5d8400', _isBigNumber: true },
+    '0xa3c53cd701610989be20db194c2946fdcaa05d173cfb75067d2d22ac2bfc802d': BigNumber { _hex: '0x9a1222532c2a1f2c00', _isBigNumber: true },
+    '0x808a87c9112746660199358206c6f9802b99f33a381aa4b701d0612ba27ceacc': BigNumber { _hex: '0x9a1222532c2a1f2c00', _isBigNumber: true },
+    '0x7f024acea4aeec40832cbd9f4cc0a7ecb8ca87416e7e4c1e6db03037c6d2e470': BigNumber { _hex: '0x9a1222532c2a1f2c00', _isBigNumber: true },
+    '0x25a9c1b19c66de055cd7b83a94b0acd7323dab0b032b9293b63240a4da54608c': BigNumber { _hex: '0x9a1222532c2a1f2c00', _isBigNumber: true },
+    '0x0232210e30296a14bc725f85255b9db3655bf355e3c732979c2fc08d336f5243': BigNumber { _hex: '0x0738d99be61207bc8e00', _isBigNumber: true }
+  },
+  '0x7eed5d79e94a2b2a1fc93a7d7a536d16aed0c80d': {
+    '0xc6280dc479c0b8316378c5d3acd3b847016db2cf1e9980b8619f42f52dfc5bd3': BigNumber { _hex: '0x0ac43f0cd21a9680', _isBigNumber: true },
+    '0x40aa1cb6666d7c8e06fdd6e22330e7d370bdd77b51bb6b6b62fde2d4998b3975': BigNumber { _hex: '0x12b556397b58de6680', _isBigNumber: true },
+    '0x2752c111cf3cda29d058199af7df472370852c62a59cfd3fa216c6ea763a731e': BigNumber { _hex: '0x6e5b86439d92f780', _isBigNumber: true },
+    '0x89b41f414e3503c9e85f6f8e2f502eb65bfa03767999e78cac98f9fc79019ecc': BigNumber { _hex: '0x4f736f80d501d000', _isBigNumber: true },
+    '0x1c78a1f4c812540d4797fd96e1244d8a920d855f0ab6a890f67c7a716f8e1d46': BigNumber { _hex: '0x33eea0efef2ad800', _isBigNumber: true },
+    '0xe6eba1371c4a583b4bc0a1759c4644150667286b79cca0d7b63f198be7696416': BigNumber { _hex: '0x33eea0efef2ad800', _isBigNumber: true },
+    '0x951ec85084dfe5e27471b3d76182f9485becda2df7643e066ae4347384c796d5': BigNumber { _hex: '0xab60464af8cc1600', _isBigNumber: true },
+    '0xa7cecdc946860bba2bc96ebfec515fe419dc1df19f909c3eb0339e504514bb05': BigNumber { _hex: '0x0a4144b8c17b1100', _isBigNumber: true },
+    '0x0232210e30296a14bc725f85255b9db3655bf355e3c732979c2fc08d336f5243': BigNumber { _hex: '0x0a4144b8c17b1100', _isBigNumber: true },
+    '0x33d2612e94daa91823956a6e4c97adb5eaf0e82c021f52bfc9d25d668c2f9d89': BigNumber { _hex: '0x668caf37c0c56300', _isBigNumber: true },
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x0a4144b8c17b1100', _isBigNumber: true },
+    '0x9a5026a33dda37f69727d31ff54e23fdb5293dabf860fe3267da0c90150b2601': BigNumber { _hex: '0x0a4144b8c17b1100', _isBigNumber: true },
+    '0xc807a888543da47d3ecf0de6f1c688d89aae3b63de5646623d2ad94db67718ff': BigNumber { _hex: '0x0a4144b8c17b1100', _isBigNumber: true },
+    '0x239de93c0c9a2624f8d0aef635ffd43347cec31928547086f8db3e0c7a307837': BigNumber { _hex: '0x148289718a196100', _isBigNumber: true }
+  },
+  '0xa9bf49c7ca6b456264079f159b3aa32ac50911c4': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x03fbeaf5a2976d00', _isBigNumber: true },
+    '0xa3c53cd701610989be20db194c2946fdcaa05d173cfb75067d2d22ac2bfc802d': BigNumber { _hex: '0x00', _isBigNumber: true }
+  },
+  '0x7a96a49418a101f63731ae1af8e1995be7b13f38': {
+    '0x1c78a1f4c812540d4797fd96e1244d8a920d855f0ab6a890f67c7a716f8e1d46': BigNumber { _hex: '0x0a358a156efa5d00', _isBigNumber: true }
+  },
+  '0x2ea365a7a8549a3ebdf731c8b3fafb13df7067d5': {
+    '0x72282d354230dfaa9431641cc4a21e0dbdfc9e8dad0e6e325c79b837ce8e7ade': BigNumber { _hex: '0x0232984e0ab2d822a500', _isBigNumber: true }
+  },
+  '0x9db4b2d0898d1a1f14b1d17f1de99bdb377b865c': {
+    '0x1c78a1f4c812540d4797fd96e1244d8a920d855f0ab6a890f67c7a716f8e1d46': BigNumber { _hex: '0x01b75e795f5609d85f00', _isBigNumber: true }
+  },
+  '0x92ffae4315229ba9a8c03cf29e34ad472bb889fc': {
+    '0x1c78a1f4c812540d4797fd96e1244d8a920d855f0ab6a890f67c7a716f8e1d46': BigNumber { _hex: '0x0951397e72ec640480', _isBigNumber: true },
+    '0x33d2612e94daa91823956a6e4c97adb5eaf0e82c021f52bfc9d25d668c2f9d89': BigNumber { _hex: '0x073e315df8a0f8b700', _isBigNumber: true },
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x1cdde624e660ed7a00', _isBigNumber: true }
+  },
+  '0xb977c84cdf39aec470eb149152264e48eb8ba896': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0xd47b9dd7124600', _isBigNumber: true },
+    '0x33d2612e94daa91823956a6e4c97adb5eaf0e82c021f52bfc9d25d668c2f9d89': BigNumber { _hex: '0xd47b9dd7124600', _isBigNumber: true },
+    '0x1c78a1f4c812540d4797fd96e1244d8a920d855f0ab6a890f67c7a716f8e1d46': BigNumber { _hex: '0xd47b9dd7124600', _isBigNumber: true },
+    '0x0232210e30296a14bc725f85255b9db3655bf355e3c732979c2fc08d336f5243': BigNumber { _hex: '0xd47b9dd7124600', _isBigNumber: true }
+  },
+  '0x5c7a20b1efa9a2ab5f448b651aa264f233076c4c': {
+    '0x1c78a1f4c812540d4797fd96e1244d8a920d855f0ab6a890f67c7a716f8e1d46': BigNumber { _hex: '0x017583da9c760483ae00', _isBigNumber: true }
+  },
+  '0x340dd101fd06648e05cbf8984852155e32e7cd43': {
+    '0x33d2612e94daa91823956a6e4c97adb5eaf0e82c021f52bfc9d25d668c2f9d89': BigNumber { _hex: '0xdb12330c11b87c8c00', _isBigNumber: true }
+  },
+  '0x02720b678ce8cb597f9fe24c15d9a3007527839b': {
+    '0x33d2612e94daa91823956a6e4c97adb5eaf0e82c021f52bfc9d25d668c2f9d89': BigNumber { _hex: '0x556816f3e86af23d00', _isBigNumber: true }
+  },
+  '0x9da66f9ed8093fb3d742eddb2b6bdad417bdfa12': {
+    '0x33d2612e94daa91823956a6e4c97adb5eaf0e82c021f52bfc9d25d668c2f9d89': BigNumber { _hex: '0x65fde55cd99e00', _isBigNumber: true },
+    '0x1c78a1f4c812540d4797fd96e1244d8a920d855f0ab6a890f67c7a716f8e1d46': BigNumber { _hex: '0xcbfbcab9b33c00', _isBigNumber: true },
+    '0x0232210e30296a14bc725f85255b9db3655bf355e3c732979c2fc08d336f5243': BigNumber { _hex: '0x65fde55cd99e00', _isBigNumber: true }
+  },
+  '0x0d423e7877c579a4bde7c70c4bbaa49fbc69720e': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x0a9e3e8fd5521a0b00', _isBigNumber: true }
+  },
+  '0x5882c2d12c05aa3873415a29e89cf4a7eb1f70a2': {
+    '0x33d2612e94daa91823956a6e4c97adb5eaf0e82c021f52bfc9d25d668c2f9d89': BigNumber { _hex: '0x024fa1cb7ccd451b00', _isBigNumber: true }
+  },
+  '0xd432af6bfe76618b59231d6d13eff27d66a74b9c': {
+    '0x1c78a1f4c812540d4797fd96e1244d8a920d855f0ab6a890f67c7a716f8e1d46': BigNumber { _hex: '0xa9e386c99ef2bfee00', _isBigNumber: true }
+  },
+  '0x0272120f80e6900af9111fc716f8abb5abd15eac': {
+    '0xdbd9b22e1bf5fb970b1cbf25081d073cb4200eb8c06428a3237c0d92693f6d19': BigNumber { _hex: '0x1a16de37b9fe290500', _isBigNumber: true }
+  },
+  '0x265b3e14ecc4045159d1f360a02b9c860c361631': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x1afbaf7f4d1a791600', _isBigNumber: true }
+  },
+  '0xed76bdf82c6b0940ba3faa1399c79a8128501c0a': {
+    '0xdbd9b22e1bf5fb970b1cbf25081d073cb4200eb8c06428a3237c0d92693f6d19': BigNumber { _hex: '0x642a1b58e6d05ccb00', _isBigNumber: true }
+  },
+  '0x7161e23310963fbb22452953d5737cf6b0d85e73': {
+    '0x1c78a1f4c812540d4797fd96e1244d8a920d855f0ab6a890f67c7a716f8e1d46': BigNumber { _hex: '0x0118d6bda46750c92c00', _isBigNumber: true }
+  },
+  '0x0fb133d3e5bcd9839f2b423d0839ba2dbb7e4b46': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x5bf0a53983b075c880', _isBigNumber: true }
+  },
+  '0xc8d48195eabd25a27e578c5e0c617e3871177286': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x0319c04c0f97f454e600', _isBigNumber: true }
+  },
+  '0x641f3f334b809f6a31238377f5a060de7be87995': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x12805f868aef878c80', _isBigNumber: true }
+  },
+  '0xa6aab139eebf2b9bae9e52cb483cb203386e3cb4': {
+    '0x0232210e30296a14bc725f85255b9db3655bf355e3c732979c2fc08d336f5243': BigNumber { _hex: '0x42d5fe2b97d952db00', _isBigNumber: true }
+  },
+  '0x76cb8553d9e00566df08bf8bf4a2af4c31a1752a': {
+    '0x33d2612e94daa91823956a6e4c97adb5eaf0e82c021f52bfc9d25d668c2f9d89': BigNumber { _hex: '0xa92876fd237d51c700', _isBigNumber: true }
+  },
+  '0x783dde400d09e33feb4eab7852e3d5444b7a7f24': {
+    '0x1626b9e951f313365a3be2994e3fa0e1e76cb26809550804f8dd66e06e4b407b': BigNumber { _hex: '0x698851fe06799800', _isBigNumber: true }
+  },
+  '0xdc8ada243da72d114ad27b8d316a092a19d94bfa': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x0336e7580323c900', _isBigNumber: true },
+    '0x0232210e30296a14bc725f85255b9db3655bf355e3c732979c2fc08d336f5243': BigNumber { _hex: '0x0336e7580323c900', _isBigNumber: true }
+  },
+  '0x9eaa5b6171f9eeffc2b7b2949e6a7b58bfe27113': {
+    '0xf3d38d92f614cb44b5e384788473e1d599b1cfbdcd37947064a964a0c59c851a': BigNumber { _hex: '0x692dd487f4c2be00', _isBigNumber: true },
+    '0xdbd9b22e1bf5fb970b1cbf25081d073cb4200eb8c06428a3237c0d92693f6d19': BigNumber { _hex: '0x692dd487f4c2be00', _isBigNumber: true }
+  },
+  '0xbd90fa61ee83123a5c42eb2024cd00fedbb932ae': {
+    '0x33d2612e94daa91823956a6e4c97adb5eaf0e82c021f52bfc9d25d668c2f9d89': BigNumber { _hex: '0x09e61fb8d8dd4b9780', _isBigNumber: true }
+  },
+  '0xd31290692bbb478c7b1995b50b6f34267fa43122': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0xf7ca798c22f0f9a980', _isBigNumber: true }
+  },
+  '0x65d22dbbc0aa182f17d518c37119cf0719640e90': {
+    '0x0232210e30296a14bc725f85255b9db3655bf355e3c732979c2fc08d336f5243': BigNumber { _hex: '0x088f3acbbb54ef0800', _isBigNumber: true }
+  },
+  '0xe65560d56d70375953ebae877384eb669d33297e': {
+    '0x88d7f1f3b202809209bbebcdf785704a55e2ae87a3ae0863989790f04b6bbd21': BigNumber { _hex: '0x4544e9c097191bca80', _isBigNumber: true },
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x0289660f6d88bdb41680', _isBigNumber: true },
+    '0x33d2612e94daa91823956a6e4c97adb5eaf0e82c021f52bfc9d25d668c2f9d89': BigNumber { _hex: '0x7938991108716dad00', _isBigNumber: true }
+  },
+  '0x2e216ef129f7446463d4865df65576df96e4308e': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x1702067dbe35e77800', _isBigNumber: true }
+  },
+  '0x9033800423d2b1eed8b44e1202dfc7f6d5a71da2': {
+    '0xe6eba1371c4a583b4bc0a1759c4644150667286b79cca0d7b63f198be7696416': BigNumber { _hex: '0xd1a7a25414de9c00', _isBigNumber: true },
+    '0x88d7f1f3b202809209bbebcdf785704a55e2ae87a3ae0863989790f04b6bbd21': BigNumber { _hex: '0x68d3d12a0a6f4e00', _isBigNumber: true },
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0xbec92fe0f95d1000', _isBigNumber: true },
+    '0x33d2612e94daa91823956a6e4c97adb5eaf0e82c021f52bfc9d25d668c2f9d89': BigNumber { _hex: '0x9d3db9bf0bf9a600', _isBigNumber: true },
+    '0x0232210e30296a14bc725f85255b9db3655bf355e3c732979c2fc08d336f5243': BigNumber { _hex: '0x01804c1af4bd491c00', _isBigNumber: true }
+  },
+  '0x8eeacbe0f08dfeeb73f59c86d69ac5383313a111': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x00', _isBigNumber: true }
+  },
+  '0x697f7b37d98d8079a41837c1d1e53f746bb569df': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x00', _isBigNumber: true }
+  },
+  '0xde8b08b0cb56c3ba2d492fcac7917bbbc5967f49': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x281c1a2c59e7e67a00', _isBigNumber: true }
+  },
+  '0x6ac6ccddecb1064df87a8a636dc3b65274ede1d1': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x9814541015feda00', _isBigNumber: true },
+    '0x0232210e30296a14bc725f85255b9db3655bf355e3c732979c2fc08d336f5243': BigNumber { _hex: '0x9814541015feda00', _isBigNumber: true }
+  },
+  '0x71b81ac4ed70f10244d559dbcfd65223c37d0e4c': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x00', _isBigNumber: true }
+  },
+  '0x28318b3d4e5b089c0fe0072eef073b487920f458': {
+    '0xc6280dc479c0b8316378c5d3acd3b847016db2cf1e9980b8619f42f52dfc5bd3': BigNumber { _hex: '0x01b2edac7159b11700', _isBigNumber: true },
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0xa831e9afd5af7be500', _isBigNumber: true }
+  },
+  '0x02881cfd77ab4d22934faa9e153d3a496dc72b40': {
+    '0xc6280dc479c0b8316378c5d3acd3b847016db2cf1e9980b8619f42f52dfc5bd3': BigNumber { _hex: '0x087ea45e36c0757300', _isBigNumber: true },
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0xa16632fe1048b78900', _isBigNumber: true }
+  },
+  '0xec6bad49f3bb4cb9217f28a30638fadc04862bed': {
+    '0xc6280dc479c0b8316378c5d3acd3b847016db2cf1e9980b8619f42f52dfc5bd3': BigNumber { _hex: '0x087f3bd368c9d63300', _isBigNumber: true },
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0xa17170b0c71e960400', _isBigNumber: true }
+  },
+  '0x44ece57faf531c9415bba728299cbfe9415cc0c0': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x01f2206de3a69b1c00', _isBigNumber: true }
+  },
+  '0xb4ba074448b6c4c54092180465b5305181f6877a': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x27712fb2f66e9800', _isBigNumber: true }
+  },
+  '0x21340ad8ee90a6c166fef086308d308049313052': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x7eaa5b7511abfd00', _isBigNumber: true }
+  },
+  '0x5e535c3894b5eeacab0dd8995870ae2cb1a6655b': {
+    '0xac85a99e1ac2e0f85bf8873ffe8a659223eaf628420fab74cd5e018e72de3876': BigNumber { _hex: '0x0321fd748cbdedd600', _isBigNumber: true }
+  },
+  '0xc9e166f2737e004e93800dcef0d608b014df07f6': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x00', _isBigNumber: true }
+  },
+  '0xd2f7e89cc5e13677658d35cf8339bcb9ac903718': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x14077a38e4758b7900', _isBigNumber: true }
+  },
+  '0x03d00d0b3e35198613d4c2b3fa74a1d6aa5834b2': {
+    '0x0232210e30296a14bc725f85255b9db3655bf355e3c732979c2fc08d336f5243': BigNumber { _hex: '0x030a22b2879e68215000', _isBigNumber: true }
+  },
+  '0xf055a6c48518c0982ecfcabc78d0f430cdd64972': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x54f1c364cf795ff700', _isBigNumber: true }
+  },
+  '0x28aa4f9ffe21365473b64c161b566c3cdead0108': {
+    '0x951ec85084dfe5e27471b3d76182f9485becda2df7643e066ae4347384c796d5': BigNumber { _hex: '0x041d13a6845662fd1e80', _isBigNumber: true }
+  },
+  '0x4226725dbe5d5064186fca1cc86b951739c6b402': {
+    '0xa7cecdc946860bba2bc96ebfec515fe419dc1df19f909c3eb0339e504514bb05': BigNumber { _hex: '0x061364930c2fd6797200', _isBigNumber: true },
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x064286a704cc6d435300', _isBigNumber: true },
+    '0x0232210e30296a14bc725f85255b9db3655bf355e3c732979c2fc08d336f5243': BigNumber { _hex: '0x061364930c2fd6797200', _isBigNumber: true }
+  },
+  '0xfc5de8ac76c592d6d4a5ada3b66b9d109c1b7800': {
+    '0xa7cecdc946860bba2bc96ebfec515fe419dc1df19f909c3eb0339e504514bb05': BigNumber { _hex: '0x1d604cdbf9b9a8b200', _isBigNumber: true }
+  },
+  '0xd26572cadd07baf8415b82f44e64f72a3ac280c7': {
+    '0x2b49eed28c3660973b8025af689536a6765b4b9619b5c41fb4a8a1e747c5d7e5': BigNumber { _hex: '0x270801de75000cd800', _isBigNumber: true }
+  },
+  '0x4d2a353dcd9b25a241382241c9b9a27b7cd08f20': {
+    '0x9a5026a33dda37f69727d31ff54e23fdb5293dabf860fe3267da0c90150b2601': BigNumber { _hex: '0x0501de8e3918086f00', _isBigNumber: true },
+    '0x951ec85084dfe5e27471b3d76182f9485becda2df7643e066ae4347384c796d5': BigNumber { _hex: '0x0501de8e3918086f00', _isBigNumber: true },
+    '0x89b41f414e3503c9e85f6f8e2f502eb65bfa03767999e78cac98f9fc79019ecc': BigNumber { _hex: '0x0501de8e3918086f00', _isBigNumber: true },
+    '0x7ee7013b2a654bdf2f2320279672cd347f968aca63674dcd2f29c3664e923c71': BigNumber { _hex: '0x0501de8e3918086f00', _isBigNumber: true }
+  },
+  '0x3be3a8613dc18554a73773a5bfb8e9819d360dc0': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x50455a1344d3bfbb00', _isBigNumber: true }
+  },
+  '0x0965290539099054ca569d4d534ff52c1be4870f': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x09a7b5027b3f40e700', _isBigNumber: true }
+  },
+  '0x1682db339694d5381b5ffd7c80dd19c4c4d30a86': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x14077a38e4758b7900', _isBigNumber: true }
+  },
+  '0x18a8b084d1ebf33d2e3b0a6d6217986e393d75cb': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0xa8309c7acdfe65bf00', _isBigNumber: true }
+  },
+  '0x465115c069dca8ad88bf4dff096876ca3fffbf13': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0x29cc5ff83a3bc92700', _isBigNumber: true }
+  },
+  '0xa55f6c392b37f6d796c0b81164186d1b11158fb1': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0xa8309c7acdfe65bf00', _isBigNumber: true }
+  },
+  '0xdf7c6e57e6a3cb9e16ec77d15ed083366362fcd9': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0xa816945633fdd74d00', _isBigNumber: true }
+  },
+  '0xbb9e075ecaf394e98ae803a1d9142afa0d156c57': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0xa831e9afd5af7be500', _isBigNumber: true }
+  },
+  '0x508c00ecd29980071b32f956036c33da68fb7fe8': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0xa831e9afd5af7be500', _isBigNumber: true }
+  },
+  '0x1b04ce47617e13c9f2d6edec9234220b00b870f3': {
+    '0x78cfa16de06f76fdb7977e107fea53b5b9c9992d8d9f1c713c46169e6d38db1b': BigNumber { _hex: '0xa9e386c99ef2bfee00', _isBigNumber: true }
+  },
+  '0x6e74053a3798e0fc9a9775f7995316b27f21c4d2': {
+    '0xf5eab9012b890587884ee3c10833b4a3243ea81ac74361004b0267974e7f1b0a': BigNumber { _hex: '0x0185115943cf3410a800', _isBigNumber: true },
+    '0x1626b9e951f313365a3be2994e3fa0e1e76cb26809550804f8dd66e06e4b407b': BigNumber { _hex: '0x0185115943cf3410a800', _isBigNumber: true }
+  },
+  '0xcd11fdd31bf94437189374c74afa2d21607e4de5': {
+    '0xf3d38d92f614cb44b5e384788473e1d599b1cfbdcd37947064a964a0c59c851a': BigNumber { _hex: '0x018f05de4a36301700', _isBigNumber: true }
+  },
+  '0xa411422b572c48f02e34b676650cf33ae306a9f1': {
+    '0x239de93c0c9a2624f8d0aef635ffd43347cec31928547086f8db3e0c7a307837': BigNumber { _hex: '0x14077a38e4758b7900', _isBigNumber: true }
+  },
+  '0xaaf805df9585b8c6637a7bc5261d3ace5557d020': {
+    '0xac85a99e1ac2e0f85bf8873ffe8a659223eaf628420fab74cd5e018e72de3876': BigNumber { _hex: '0x1005fb60b6c3022100', _isBigNumber: true }
+  },
+  '0x32235fe0b39849ddff11bce74d93bf981c9fe5ea': {
+    '0xc966b887204ecdf4961455ab2eed7edfb5f22c22acd26ec3184359da62f0f3a6': BigNumber { _hex: '0x0206c1cc5a699859a400', _isBigNumber: true }
+  },
+  '0x38aff755cac6124b85169483ef7cbd59cac21fb0': {
+    '0xac85a99e1ac2e0f85bf8873ffe8a659223eaf628420fab74cd5e018e72de3876': BigNumber { _hex: '0x247b87f93b96e680', _isBigNumber: true }
+  },
+  '0xd0941698c352792e0bc1e885943b66a3ffbdcd22': {
+    '0xf33105d6e413749e11cc815635dc6cdf9550f1adc812b823474efac4a3fd399a': BigNumber { _hex: '0x00', _isBigNumber: true }
+  },
+  '0x75aa584bef3a942b8b50f34ab56a15f47768f36a': {
+    '0xdbd9b22e1bf5fb970b1cbf25081d073cb4200eb8c06428a3237c0d92693f6d19': BigNumber { _hex: '0x10f2a27ee8ad49ec00', _isBigNumber: true }
+  },
+  '0x973ce5ab84ced6cfe9fb40cf029686059dbe3eaa': {
+    '0xdbd9b22e1bf5fb970b1cbf25081d073cb4200eb8c06428a3237c0d92693f6d19': BigNumber { _hex: '0xd25ba90fe9857c00', _isBigNumber: true }
+  },
+  '0x4a8aaa79e3c6e96ef391d9b28901c64d4aaacd9e': {
+    '0xdbd9b22e1bf5fb970b1cbf25081d073cb4200eb8c06428a3237c0d92693f6d19': BigNumber { _hex: '0x01a4b7521fda2e3700', _isBigNumber: true }
+  },
+  '0xc7037eb9b46ab3b37c73668835462a896755bedb': {
+    '0xdbd9b22e1bf5fb970b1cbf25081d073cb4200eb8c06428a3237c0d92693f6d19': BigNumber { _hex: '0x692dd487f4c2be00', _isBigNumber: true }
+  },
+  '0xd04f0f69537c1914d62ae042430fb3778f8c64ed': {
+    '0xdbd9b22e1bf5fb970b1cbf25081d073cb4200eb8c06428a3237c0d92693f6d19': BigNumber { _hex: '0x01b1dd0cb0de20fe00', _isBigNumber: true }
+  },
+  '0x65f3e847edf70faaf441da81e4888489afb1f6c3': {
+    '0xf3d38d92f614cb44b5e384788473e1d599b1cfbdcd37947064a964a0c59c851a': BigNumber { _hex: '0x088676fa0553747e00', _isBigNumber: true }
+  },
+  '0x9a6776b9a737a8e81c2511a5f1f17f6cbabf5f9a': {
+    '0xf3d38d92f614cb44b5e384788473e1d599b1cfbdcd37947064a964a0c59c851a': BigNumber { _hex: '0x20de526a7806d400', _isBigNumber: true },
+    '0xdbd9b22e1bf5fb970b1cbf25081d073cb4200eb8c06428a3237c0d92693f6d19': BigNumber { _hex: '0x20de526a7806d400', _isBigNumber: true }
+  },
+  '0xfa94bf486307503c7d2a0748567d089078c0a6b4': {
+    '0xdbd9b22e1bf5fb970b1cbf25081d073cb4200eb8c06428a3237c0d92693f6d19': BigNumber { _hex: '0x3060d4818a442a1100', _isBigNumber: true }
+  }
+}
+/home/ec2-user/hidden-hand-backend/reward-v2/utils.js:389
+        throw new Error('Rewards not found or not yet transferred');
+              ^
 
-Error: No protocol found
-    at main (/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:277:11)
+Error: Rewards not found or not yet transferred
+    at /home/ec2-user/hidden-hand-backend/reward-v2/utils.js:389:15
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 
 Node.js v18.18.2
