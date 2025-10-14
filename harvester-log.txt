@@ -1,5 +1,14 @@
 ---------------------------
-Processing for snapshot at 1760313600
-Chain 1 not available
+Processing for snapshot at 1760400000
 Chain 10 not available
 Chain 42161 not available
+{ '1-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': '8464120727' }
+/home/ec2-user/hidden-hand-backend/reward-v2/harvester.js:207
+      throw new Error('No deposit found');
+            ^
+
+Error: No deposit found
+    at /home/ec2-user/hidden-hand-backend/reward-v2/harvester.js:207:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.18.2

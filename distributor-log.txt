@@ -1,18 +1,76 @@
-Round not ending yet for aura
 Round not ending yet for balancer
 Round has past expiry limit for bunni
 Round has past expiry limit for equilibria
 Round has past expiry limit for lodestar
 Round has past expiry limit for thruster
 Round has past expiry limit for hyperlock
-Round not ending yet for beets
 Round not ending yet for omni
-/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:277
-    throw new Error('No protocol found');
-          ^
+Protocols [ 'aura', 'beets' ]
+Reward distribution (simulation: true) for AURA
+Forward block 23572824
+Blacklisted [
+  '0x1c8bcb6348c84122e67a50e513a1e183c0e6929a',
+  '0x9ff471f9f98f42e5151c7855fd1b5aa906b1af7e',
+  '0xa52fd396891e7a74b641a2cb1a6999fcf56b077e',
+  '0xf17149326ec300c5650ed983afa9a8114fef2400'
+]
+Proposal 70 1760385600 0x159dc97c174bde704c452368b5eb75b04abc1e6ce2d3adf08d0185856a86437d
+Snapshot at block # 23536461 and timestamp = 1759968000
+Snapshot at block # 36589327 and timestamp = 1759968000
+Total weight 41530295263725010435000000
+HH user votes {
+  '3': BigNumber { _hex: '0x566488709c58a206ab1b', _isBigNumber: true },
+  '24': BigNumber { _hex: '0x1c6b0d1bd4633015c71f', _isBigNumber: true },
+  '33': BigNumber { _hex: '0x7c535a58a316bfb96985', _isBigNumber: true },
+  '38': BigNumber { _hex: '0x013f4f51aef0d15e286ee6', _isBigNumber: true },
+  '39': BigNumber { _hex: '0x8f9677a19688ae2e7119', _isBigNumber: true },
+  '44': BigNumber { _hex: '0xd5e84a4853e40b2eff5e', _isBigNumber: true },
+  '48': BigNumber { _hex: '0x0258db751487ed7d12d527', _isBigNumber: true },
+  '72': BigNumber { _hex: '0x89e4cfc5fc0ea3a6cb9b', _isBigNumber: true },
+  '78': BigNumber { _hex: '0x76fd6bb4ec844e3d9ac7', _isBigNumber: true },
+  '88': BigNumber { _hex: '0x72dc1b5158ed25cbac18', _isBigNumber: true },
+  '92': BigNumber { _hex: '0x1ef87ff8fa13957f6fd8', _isBigNumber: true },
+  '98': BigNumber { _hex: '0x4f97087b1d80bdce3499', _isBigNumber: true },
+  '108': BigNumber { _hex: '0x5ec8ef148351c8dba25d', _isBigNumber: true },
+  '119': BigNumber { _hex: '0x383c86713a76d6608ef3', _isBigNumber: true },
+  '122': BigNumber { _hex: '0x313ab66ad5eed80bc421', _isBigNumber: true },
+  '127': BigNumber { _hex: '0x50e5826fc62e5646b674', _isBigNumber: true },
+  '134': BigNumber { _hex: '0xbdc6c6e1c69f2712a9c2', _isBigNumber: true },
+  '154': BigNumber { _hex: '0x3979621de010e5ae6573', _isBigNumber: true },
+  '175': BigNumber { _hex: '0x5991f4a86d53d5598b8f', _isBigNumber: true },
+  '180': BigNumber { _hex: '0x6a679af96bfdb674324a', _isBigNumber: true },
+  '188': BigNumber { _hex: '0x292ed634b45fa2213778', _isBigNumber: true },
+  '210': BigNumber { _hex: '0x6213936d1cc010272245', _isBigNumber: true }
+}
+Choice voted 3 407978023464051482733339
+Choice voted 24 134201007718306325841695
+Choice voted 33 587111033766533364541829
+Choice voted 38 1507898086723784916102886
+Choice voted 39 678074038998091244138777
+Choice voted 44 1010149058096731081604958
+Choice voted 48 2837468163191385567188263
+Choice voted 72 651185037451623240485787
+Choice voted 78 561914032317377510480583
+Choice voted 88 542410031195643357932568
+Choice voted 92 146255008411568385781720
+Choice voted 98 375853021616445330437273
+Choice voted 108 447609025743350444827229
+Choice voted 119 265569015273678232915699
+Choice voted 122 232479013370572007261217
+Choice voted 127 382023021971300768200308
+Choice voted 134 896194051542833563871682
+Choice voted 154 271414015609841851983219
+Choice voted 175 422983024327034479938447
+Choice voted 180 502482028899262950289994
+Choice voted 188 194481011185191833646968
+Choice voted 210 463153026637332979589701
+Total HH Power 13518883777511940919794142
+/home/ec2-user/hidden-hand-backend/reward-v2/utils.js:389
+        throw new Error('Rewards not found or not yet transferred');
+              ^
 
-Error: No protocol found
-    at main (/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:277:11)
+Error: Rewards not found or not yet transferred
+    at /home/ec2-user/hidden-hand-backend/reward-v2/utils.js:389:15
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 
 Node.js v18.18.2
