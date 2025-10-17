@@ -1,23 +1,5 @@
 ---------------------------
-Processing for snapshot at 1760572800
+Processing for snapshot at 1760659200
+Chain 1 not available
 Chain 10 not available
 Chain 42161 not available
-{ '1-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': '691566013' }
-1 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 173125982520941589
-Total amount 173125982520941583 173125982520941589
-Transformed calldata 1 [
-  [
-    '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
-    '0x30ad8eccf372d1ea7b5ec6d32ee1da5efe30e54c77cb3887f99eab16850ee7c9',
-    '0x1b7b6b75135d65d60238075fcea654bdeb1398ed1f7f4d2bb54b3d4931d08b2d'
-  ]
-]
-{
-  '1': [
-    [
-      '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
-      '0x30ad8eccf372d1ea7b5ec6d32ee1da5efe30e54c77cb3887f99eab16850ee7c9',
-      '0x1b7b6b75135d65d60238075fcea654bdeb1398ed1f7f4d2bb54b3d4931d08b2d'
-    ]
-  ]
-}
