@@ -1,117 +1,18 @@
 Round has past expiry limit for aura
+Round not ending yet for balancer
 Round has past expiry limit for bunni
 Round has past expiry limit for equilibria
 Round has past expiry limit for lodestar
 Round has past expiry limit for thruster
 Round has past expiry limit for hyperlock
 Round has past expiry limit for beets
-Round has past expiry limit for omni
-Protocols [ 'balancer' ]
-Reward distribution (simulation: true) for BALANCER
-Deadlines:  1761782400 1761177600
-Blacklisted [
-  '0xaf52695e1bb01a16d33d7194c28c42b10e0dbec2',
-  '0x1c8bcb6348c84122e67a50e513a1e183c0e6929a'
-]
-Total user power 1495958017732723967184000
-Refunds {}
-Generate distributions balancer 1761782400 {} true
-Harvester rewards by chain {
-  '1': {
-    '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf': BigNumber { _hex: '0x0312cd0021f82c2f11', _isBigNumber: true },
-    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': BigNumber { _hex: '0x1f2459b7', _isBigNumber: true }
-  },
-  '10': {
-    '0x7f5c764cbc14f9669b88837ca1490cca17c31607': BigNumber { _hex: '0x15', _isBigNumber: true }
-  },
-  '42161': {
-    '0xaf88d065e77c8cc2239327c5edb3a432268e5831': BigNumber { _hex: '0x2458', _isBigNumber: true }
-  }
-}
-All coin candidates {
-  '1': {
-    '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf': BigNumber { _hex: '0x0312cd0021f82c2f11', _isBigNumber: true },
-    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': BigNumber { _hex: '0x1f2459b7', _isBigNumber: true }
-  },
-  '10': {
-    '0x7f5c764cbc14f9669b88837ca1490cca17c31607': BigNumber { _hex: '0x15', _isBigNumber: true }
-  },
-  '42161': {
-    '0xaf88d065e77c8cc2239327c5edb3a432268e5831': BigNumber { _hex: '0x2458', _isBigNumber: true }
-  }
-}
-Check swap (Paraswap) 0xc0c293ce456ff0ed870add98a0828dd4d2903dbf BigNumber { _hex: '0x0312cd0021f82c2f11', _isBigNumber: true } 200 1
-0xc0c293ce456ff0ed870add98a0828dd4d2903dbf AURA 6.539481479585808
-Insufficient value for swap for AURA
-Check swap (Paraswap) 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 BigNumber { _hex: '0x1f2459b7', _isBigNumber: true } 200 1
-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 USDC 522.4237114041
-522.475959 USDC -> 0.132548036219117656 WETH
-Check swap (Paraswap) 0x7f5c764cbc14f9669b88837ca1490cca17c31607 BigNumber { _hex: '0x15', _isBigNumber: true } 200 10
-0x7f5c764cbc14f9669b88837ca1490cca17c31607 USDC.E 0.000020997899999999998
-Insufficient value for swap for USDC.E
-Check swap (Paraswap) 0xaf88d065e77c8cc2239327c5edb3a432268e5831 BigNumber { _hex: '0x2458', _isBigNumber: true } 200 42161
-0xaf88d065e77c8cc2239327c5edb3a432268e5831 USDC 0.0093030696
-Insufficient value for swap for USDC
-Eligible tokens {
-  '1': [ '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48' ],
-  '10': [],
-  '42161': []
-}
-Reward distribution (simulation: false) for BALANCER
-Deadlines:  1761782400 1761177600
-Blacklisted [
-  '0xaf52695e1bb01a16d33d7194c28c42b10e0dbec2',
-  '0x1c8bcb6348c84122e67a50e513a1e183c0e6929a'
-]
-Total user power 1495958017732723967184000
-Error: bad response (status=503, headers={"date":"Thu, 30 Oct 2025 02:25:23 GMT","content-type":"application/json","content-length":"57","connection":"close","set-cookie":"_cfuvid=5lTp6xyHpqo9mf_p21uKOAc3Gl7FN3ChNsKQTWOfpes-1761791123857-0.0.1.1-604800000; path=/; domain=.g.alchemy.com; HttpOnly; Secure; SameSite=None","server":"cloudflare","cf-ray":"9967757f9a5258bf-NRT"}, body="{\"error\":\"Internal server error. Forwarder error: 1000.\"}", requestBody="{\"method\":\"eth_getLogs\",\"params\":[{\"fromBlock\":\"0x1\",\"toBlock\":\"0x989681\",\"address\":\"0xa9b08b4ceec1ef29edec7f9c94583270337d6416\",\"topics\":[\"0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7\",\"0x000000000000000000000000ea1aac67b6ad9005e1551a4085fffe5aef0f3f09\",null,\"0x000000000000000000000000000000000000000000000000000000006902aa80\"]}],\"id\":43,\"jsonrpc\":\"2.0\"}", requestMethod="POST", url="https://opt-mainnet.g.alchemy.com/v2/zEPzGZ4Ue0lkDmjh68HzU2CC0bb9fjBv", code=SERVER_ERROR, version=web/5.7.1)
-    at Logger.makeError (/home/ec2-user/hidden-hand-backend/node_modules/@ethersproject/logger/lib/index.js:238:21)
-    at Logger.throwError (/home/ec2-user/hidden-hand-backend/node_modules/@ethersproject/logger/lib/index.js:247:20)
-    at /home/ec2-user/hidden-hand-backend/node_modules/@ethersproject/web/lib/index.js:275:36
-    at step (/home/ec2-user/hidden-hand-backend/node_modules/@ethersproject/web/lib/index.js:33:23)
-    at Object.next (/home/ec2-user/hidden-hand-backend/node_modules/@ethersproject/web/lib/index.js:14:53)
-    at fulfilled (/home/ec2-user/hidden-hand-backend/node_modules/@ethersproject/web/lib/index.js:5:58)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
-  reason: 'bad response',
-  code: 'SERVER_ERROR',
-  status: 503,
-  headers: {
-    date: 'Thu, 30 Oct 2025 02:25:23 GMT',
-    'content-type': 'application/json',
-    'content-length': '57',
-    connection: 'close',
-    'set-cookie': '_cfuvid=5lTp6xyHpqo9mf_p21uKOAc3Gl7FN3ChNsKQTWOfpes-1761791123857-0.0.1.1-604800000; path=/; domain=.g.alchemy.com; HttpOnly; Secure; SameSite=None',
-    server: 'cloudflare',
-    'cf-ray': '9967757f9a5258bf-NRT'
-  },
-  body: '{"error":"Internal server error. Forwarder error: 1000."}',
-  requestBody: '{"method":"eth_getLogs","params":[{"fromBlock":"0x1","toBlock":"0x989681","address":"0xa9b08b4ceec1ef29edec7f9c94583270337d6416","topics":["0x9350247ae5f8389ed8487daba15bc7f2173887676a95759508e1844aae0dfdc7","0x000000000000000000000000ea1aac67b6ad9005e1551a4085fffe5aef0f3f09",null,"0x000000000000000000000000000000000000000000000000000000006902aa80"]}],"id":43,"jsonrpc":"2.0"}',
-  requestMethod: 'POST',
-  url: 'https://opt-mainnet.g.alchemy.com/v2/zEPzGZ4Ue0lkDmjh68HzU2CC0bb9fjBv'
-}
-Retry fetching logs 1
-Refunds {}
-Generate distributions balancer 1761782400 {
-  '1': [ '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48' ],
-  '10': [],
-  '42161': []
-} false
-Transformed calldata 1 [
-  [
-    '0x014b2de4bccb717cde8df052cfe36456d7970905932f4bdcc43d9bb0fc6d1b7d',
-    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
-    '0x13b7c39c8ecb19c8e6e32cdc18ebffd50e35ca6866275a397804ab52d8f2e524',
-    '0x8a1bfdfc49a4d365edac44d66be5a7f2ec3d05bf53dc6f6711cae50c2f075a79'
-  ]
-]
-Final metadata
-{
-  '1': [
-    [
-      '0x014b2de4bccb717cde8df052cfe36456d7970905932f4bdcc43d9bb0fc6d1b7d',
-      '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
-      '0x13b7c39c8ecb19c8e6e32cdc18ebffd50e35ca6866275a397804ab52d8f2e524',
-      '0x8a1bfdfc49a4d365edac44d66be5a7f2ec3d05bf53dc6f6711cae50c2f075a79'
-    ]
-  ]
-}
+Round not ending yet for omni
+/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:277
+    throw new Error('No protocol found');
+          ^
+
+Error: No protocol found
+    at main (/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:277:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.18.2
