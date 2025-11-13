@@ -1,5 +1,4 @@
 Round has past expiry limit for aura
-Round not ending yet for balancer
 Round has past expiry limit for bunni
 Round has past expiry limit for equilibria
 Round has past expiry limit for lodestar
@@ -7,12 +6,98 @@ Round has past expiry limit for thruster
 Round has past expiry limit for hyperlock
 Round has past expiry limit for beets
 Round not ending yet for omni
-/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:277
-    throw new Error('No protocol found');
-          ^
-
-Error: No protocol found
-    at main (/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:277:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-
-Node.js v18.18.2
+Protocols [ 'balancer' ]
+Reward distribution (simulation: true) for BALANCER
+Deadlines:  1762992000 1762387200
+Blacklisted [
+  '0xaf52695e1bb01a16d33d7194c28c42b10e0dbec2',
+  '0x1c8bcb6348c84122e67a50e513a1e183c0e6929a'
+]
+Total user power 1655635122629355419596800
+Refunds {}
+Generate distributions balancer 1762992000 {} true
+Harvester rewards by chain {
+  '1': {
+    '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf': BigNumber { _hex: '0x0312cd0021f82c2f11', _isBigNumber: true },
+    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': BigNumber { _hex: '0x2be7b591', _isBigNumber: true }
+  },
+  '10': {
+    '0x7f5c764cbc14f9669b88837ca1490cca17c31607': BigNumber { _hex: '0x15', _isBigNumber: true }
+  },
+  '42161': {
+    '0xaf88d065e77c8cc2239327c5edb3a432268e5831': BigNumber { _hex: '0x2458', _isBigNumber: true }
+  }
+}
+All coin candidates {
+  '1': {
+    '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf': BigNumber { _hex: '0x0312cd0021f82c2f11', _isBigNumber: true },
+    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': BigNumber { _hex: '0x2be7b591', _isBigNumber: true }
+  },
+  '10': {
+    '0x7f5c764cbc14f9669b88837ca1490cca17c31607': BigNumber { _hex: '0x15', _isBigNumber: true }
+  },
+  '42161': {
+    '0xaf88d065e77c8cc2239327c5edb3a432268e5831': BigNumber { _hex: '0x2458', _isBigNumber: true }
+  }
+}
+Check swap (Paraswap) 0xc0c293ce456ff0ed870add98a0828dd4d2903dbf BigNumber { _hex: '0x0312cd0021f82c2f11', _isBigNumber: true } 200 1
+0xc0c293ce456ff0ed870add98a0828dd4d2903dbf AURA 4.420563617363431
+Insufficient value for swap for AURA
+Check swap (Paraswap) 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 BigNumber { _hex: '0x2be7b591', _isBigNumber: true } 200 1
+0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 USDC 736.389759563595
+736.605585 USDC -> 0.214538552704996728 WETH
+Check swap (Paraswap) 0x7f5c764cbc14f9669b88837ca1490cca17c31607 BigNumber { _hex: '0x15', _isBigNumber: true } 200 10
+0x7f5c764cbc14f9669b88837ca1490cca17c31607 USDC.E 0.000020997899999999998
+Insufficient value for swap for USDC.E
+Check swap (Paraswap) 0xaf88d065e77c8cc2239327c5edb3a432268e5831 BigNumber { _hex: '0x2458', _isBigNumber: true } 200 42161
+0xaf88d065e77c8cc2239327c5edb3a432268e5831 USDC 0.009301273928
+Insufficient value for swap for USDC
+Eligible tokens {
+  '1': [ '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48' ],
+  '10': [],
+  '42161': []
+}
+Reward distribution (simulation: false) for BALANCER
+Deadlines:  1762992000 1762387200
+Blacklisted [
+  '0xaf52695e1bb01a16d33d7194c28c42b10e0dbec2',
+  '0x1c8bcb6348c84122e67a50e513a1e183c0e6929a'
+]
+Total user power 1655635122629355419596800
+Refunds {}
+Generate distributions balancer 1762992000 {
+  '1': [ '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48' ],
+  '10': [],
+  '42161': []
+} false
+Transformed calldata 1 [
+  [
+    '0x014b2de4bccb717cde8df052cfe36456d7970905932f4bdcc43d9bb0fc6d1b7d',
+    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+    '0x5d76fd67c99a6959715f5cf15dc873a8c2bf833917882061dbb3ad70c7c40140',
+    '0xee06f0d183449fac56874e291a5b8a804b2b6dc1202828ebf5c56b4dddea7704'
+  ],
+  [
+    '0x7694349027ad3066bb3ee879dfc6401b01a4d41d9acbff595b003c287c8f1a7c',
+    '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf',
+    '0xa79d87ac31383b2e5187cb299b6a4e75b855519999336326eb7a0f2e1721ede6',
+    '0xf95e1eba3c6e29a7eb3757c72b0e63f65d2697ca6ae757c4097ed9c254def5c4'
+  ]
+]
+Final metadata
+{
+  '1': [
+    [
+      '0x014b2de4bccb717cde8df052cfe36456d7970905932f4bdcc43d9bb0fc6d1b7d',
+      '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+      '0x5d76fd67c99a6959715f5cf15dc873a8c2bf833917882061dbb3ad70c7c40140',
+      '0xee06f0d183449fac56874e291a5b8a804b2b6dc1202828ebf5c56b4dddea7704'
+    ],
+    [
+      '0x7694349027ad3066bb3ee879dfc6401b01a4d41d9acbff595b003c287c8f1a7c',
+      '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf',
+      '0xa79d87ac31383b2e5187cb299b6a4e75b855519999336326eb7a0f2e1721ede6',
+      '0xf95e1eba3c6e29a7eb3757c72b0e63f65d2697ca6ae757c4097ed9c254def5c4'
+    ]
+  ]
+}
