@@ -1,18 +1,17 @@
-Round not ending yet for aura
 Round not ending yet for balancer
 Round has past expiry limit for bunni
 Round has past expiry limit for equilibria
 Round has past expiry limit for lodestar
 Round has past expiry limit for thruster
 Round has past expiry limit for hyperlock
-Round not ending yet for beets
 Round has past expiry limit for omni
-/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:277
-    throw new Error('No protocol found');
-          ^
+Chain not paused 100
+/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:287
+      throw new Error('Distributor is not paused');
+            ^
 
-Error: No protocol found
-    at main (/home/ec2-user/hidden-hand-backend/reward-v2/generate.js:277:11)
+Error: Distributor is not paused
+    at /home/ec2-user/hidden-hand-backend/reward-v2/generate.js:287:13
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 
 Node.js v18.18.2
